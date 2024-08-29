@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.recipes.gtceu.circuit_assembler('kubejs:refined_basic_processor1')
+    event.recipes.gtceu.circuit_assembler('kubejs:refined_construction_core1')
         .itemInputs(
             'gtceu:resin_printed_circuit_board',
             '2x #gtceu:resistors',
@@ -11,12 +11,12 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:soldering_alloy', 72)
         )
         .itemOutputs(
-            '2x kubejs:refined_basic_processor'
+            '2x kubejs:refined_construction_core'
         )
         .duration(200)
         .EUt(16)
-        .circuit(0)
-    event.recipes.gtceu.circuit_assembler('kubejs:refined_basic_processor2')
+        .circuit(1)
+    event.recipes.gtceu.circuit_assembler('kubejs:refined_construction_core2')
         .itemInputs(
             'gtceu:resin_printed_circuit_board',
             '2x #gtceu:resistors',
@@ -28,9 +28,9 @@ ServerEvents.recipes(event => {
             Fluid.of('gtceu:tin', 144)
         )
         .itemOutputs(
-            '2x kubejs:refined_basic_processor'
+            '2x kubejs:refined_construction_core'
         )
         .duration(200)
         .EUt(16)
-        .circuit(0)
+        .circuit(1)
 })
