@@ -11,6 +11,8 @@ JEIEvents.hideItems((event) => {
         'refinedstorage:machine_casing',
         'refinedstorage:quartz_enriched_iron',
         'refinedstorage:quartz_enriched_iron_block',
+        'refinedstorage:construction_core',
+        'refinedstorage:destruction_core'
     ];
 
     itemsToHide.forEach((item) => {
