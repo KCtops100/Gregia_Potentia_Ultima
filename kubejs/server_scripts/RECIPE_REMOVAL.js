@@ -18,4 +18,13 @@ ServerEvents.recipes(event => {
     itemsToHide.forEach((item) => {
         event.remove({ output: item })
     });
+
+    const sizes = [1, 4, 16, 64];
+
+    sizes.forEach((size) => {
+        event.remove({
+            input: '#forge:glass',
+            output: `refinedstorage:${size}k_storage_disk`
+        });
+    });
 });
