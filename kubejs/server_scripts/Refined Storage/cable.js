@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: '4x refinedstorage:cable' })
+    event.remove({ output: 'refinedstorage:cable' })
     event.recipes.gtceu.assembler('4x refinedstorage:cable')
         .itemInputs(
             '3x gtceu:carbon_fiber_plate', '3x gtceu:fine_red_alloy_wire'
