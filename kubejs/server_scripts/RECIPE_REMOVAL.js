@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    const itemsToHide = [
+    const itemsToRemove = [
         'refinedstorage:silicon',
         'refinedstorage:raw_basic_processor',
         'refinedstorage:raw_improved_processor',
@@ -15,39 +15,33 @@ ServerEvents.recipes(event => {
         'refinedstorage:destruction_core'
     ];
 
-    itemsToHide.forEach((item) => {
+    itemsToRemove.forEach((item) => {
         event.remove({ output: item })
     });
 
-    const sizes = [1, 4, 16, 64];
-    sizes.forEach((size) => {
-        event.remove({
-            input: '#forge:glass',
-            output: `refinedstorage:${size}k_storage_disk`
-        });
-    });
+    const itemsToRemove2 = [
+        'refinedstorage:1k_storage_disk',
+        'refinedstorage:4k_storage_disk',
+        'refinedstorage:16k_storage_disk',
+        'refinedstorage:64k_storage_disk',
+        'refinedstorage:64k_fluid_storage_disk',
+        'refinedstorage:256k_fluid_storage_disk',
+        'refinedstorage:1024k_fluid_storage_disk',
+        'refinedstorage:4096k_fluid_storage_disk',
+        'extrastorage:disk_256k',
+        'extrastorage:disk_1024k',
+        'extrastorage:disk_4096k',
+        'extrastorage:disk_16384k',
+        'extrastorage:disk_16384k_fluid',
+        'extrastorage:disk_65536k_fluid',
+        'extrastorage:disk_262144k_fluid',
+        'extrastorage:disk_1048576k_fluid'
+    ];
 
-    const sizes2 = [64, 256, 1024, 4096];
-    sizes2.forEach((size) => {
+    itemsToRemove2.forEach((item) => {
         event.remove({
             input: '#forge:glass',
-            output: `refinedstorage:${size}k_fluid_storage_part`
-        });
-    });
-
-    const sizes3 = [256, 1024, 4096, 16384];
-    sizes3.forEach((size) => {
-        event.remove({
-            input: '#forge:glass',
-            output: `extrastorage:storagepart_${size}k`
-        });
-    });
-
-    const sizes4 = [16384, 65536, 262144, 1048576];
-    sizes4.forEach((size) => {
-        event.remove({
-            input: '#forge:glass',
-            output: `extrastorage:storagepart_${size}k_fluid`
+            output: item
         });
     });
 });
