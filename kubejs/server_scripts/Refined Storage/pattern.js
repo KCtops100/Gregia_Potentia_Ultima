@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: '8x refinedstorage:pattern' })
+    event.remove({ output: 'refinedstorage:pattern' })
     event.recipes.gtceu.assembler('8x refinedstorage:pattern')
         .itemInputs(
             '3x gtceu:fine_silver_wire',
