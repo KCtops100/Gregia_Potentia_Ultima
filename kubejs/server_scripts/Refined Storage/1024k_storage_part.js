@@ -1,0 +1,15 @@
+ServerEvents.recipes(event => {
+    event.remove({ output: 'extrastorage:storagepart_1024k' })
+    event.recipes.gtceu.assembler('extrastorage:storagepart_1024k')
+        .itemInputs(
+            '4x kubejs:refined_advanced_processor',
+            'gtceu:steel_plate',
+            '#gtceu:circuits/luv',
+            '3x extrastorage:storagepart_256k'
+        )
+        .itemOutputs(
+            'extrastorage:storagepart_256k'
+        )
+        .duration(20 * 3 * 3 * 3 * 3 * 3)
+        .EUt(32)
+})
