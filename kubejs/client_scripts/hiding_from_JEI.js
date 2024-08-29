@@ -14,7 +14,6 @@ JEIEvents.hideItems((event) => {
     ];
 
     itemsToHide.forEach((item) => {
-        event.remove({ output: item });
         event.hide(item);
     });
 });
