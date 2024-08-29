@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
             '3x extrastorage:storagepart_256k'
         )
         .itemOutputs(
-            'extrastorage:storagepart_256k'
+            'extrastorage:storagepart_1024k'
         )
         .duration(20 * 3 * 3 * 3 * 3 * 3)
         .EUt(32)
