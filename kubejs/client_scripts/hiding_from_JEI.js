@@ -257,6 +257,7 @@ JEIEvents.hideItems((event) => {
         'refinedstorage:creative_storage_disk',
         'refinedstorage:creative_fluid_storage_disk',
         'refinedstorage:portable_grid',
+        'refinedstorage:creative_portable_grid',
         'refinedstorage:1k_storage_block',
         'refinedstorage:4k_storage_block',
         'refinedstorage:16k_storage_block',
