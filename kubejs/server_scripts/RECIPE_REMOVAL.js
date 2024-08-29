@@ -1,4 +1,4 @@
-JEIEvents.hideItems((event) => {
+ServerEvents.recipes(event => {
     const itemsToHide = [
         'refinedstorage:silicon',
         'refinedstorage:raw_basic_processor',
