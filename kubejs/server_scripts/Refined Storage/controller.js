@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    event.remove({ output: 'refinedstorage:controller' })
     event.recipes.gtceu.assembler('refinedstorage:controller1')
         .itemInputs(
             'gtceu:lv_machine_hull',
