@@ -255,7 +255,18 @@ JEIEvents.hideItems((event) => {
         'refinedstorage:black_crafter_manager',
         'refinedstorage:black_crafting_monitor',
         'refinedstorage:creative_storage_disk',
-        'refinedstorage:creative_fluid_storage_disk'
+        'refinedstorage:creative_fluid_storage_disk',
+        'refinedstorage:portable_grid',
+        'refinedstorage:1k_storage_block',
+        'refinedstorage:4k_storage_block',
+        'refinedstorage:16k_storage_block',
+        'refinedstorage:64k_storage_block',
+        'refinedstorage:creative_storage_block',
+        'refinedstorage:64k_fluid_storage_block',
+        'refinedstorage:256k_fluid_storage_block',
+        'refinedstorage:1024k_fluid_storage_block',
+        'refinedstorage:4096k_fluid_storage_block',
+        'refinedstorage:creative_fluid_storage_block'
     ];
 
     itemsToHide.forEach((item) => {
