@@ -253,7 +253,9 @@ JEIEvents.hideItems((event) => {
         'refinedstorage:black_disk_manipulator',
         'refinedstorage:black_crafter',
         'refinedstorage:black_crafter_manager',
-        'refinedstorage:black_crafting_monitor'
+        'refinedstorage:black_crafting_monitor',
+        'refinedstorage:creative_storage_disk',
+        'refinedstorage:creative_fluid_storage_disk'
     ];
 
     itemsToHide.forEach((item) => {
