@@ -1,0 +1,16 @@
+ServerEvents.recipes(event => {
+    event.remove({ output: '8x refinedstorage:pattern' })
+    event.recipes.gtceu.assembler('8x refinedstorage:pattern')
+        .itemInputs(
+            '3x gtceu:fine_silver_wire',
+            '#gtceu:circuits/hv'
+        )
+        .itemOutputs(
+            '8x refinedstorage:pattern'
+        )
+        .inputFluids(
+            Fluid.of('gtceu:polyethylene', 72)
+        )
+        .duration(20)
+        .EUt(32)
+})
