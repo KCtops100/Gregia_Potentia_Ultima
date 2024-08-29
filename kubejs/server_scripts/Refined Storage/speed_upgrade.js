@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
             'refinedstorage:speed_upgrade'
         )
         .inputFluids(
-            Fluid.of('gtceu:lubricant', 2000)
+            Fluid.of('gtceu:lubricant', 1000)
         )
         .duration(20)
         .EUt(32)
