@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    event.remove({output: 'refinedstorage:wrench'})
     event.shaped(
         Item.of('refinedstorage:wrench', 1),
         [
