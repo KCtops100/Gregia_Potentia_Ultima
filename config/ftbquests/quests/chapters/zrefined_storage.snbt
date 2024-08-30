@@ -1,0 +1,56 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zrefined_storage"
+	group: "018563AA18E6EC52"
+	icon: "kubejs:refined_advanced_processor"
+	id: "26450C2832BB7B83"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3AE11928CE256C21"
+			tasks: [
+				{
+					id: "5AEE8F55C1A34D3F"
+					item: "kubejs:refined_basic_processor"
+					type: "item"
+				}
+				{
+					id: "08EEC5B632C08A03"
+					item: "kubejs:refined_improved_processor"
+					type: "item"
+				}
+				{
+					id: "6E98FE3B69165FCC"
+					item: "kubejs:refined_advanced_processor"
+					type: "item"
+				}
+				{
+					id: "35E604D5393D7001"
+					item: "kubejs:refined_construction_core"
+					type: "item"
+				}
+				{
+					id: "240B3F96D85CDE5F"
+					item: "kubejs:refined_destruction_core"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AE11928CE256C21"]
+			id: "7154D0E0CD06752D"
+			tasks: [{
+				id: "1A4CE0EAD1E63A48"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "Refined Storage"
+}
