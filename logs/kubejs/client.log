@@ -1,9 +1,0 @@
-[17:10:18] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[17:10:18] [INIT] Loaded plugins:
-[17:10:18] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[17:10:18] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[17:10:18] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[17:10:18] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[17:10:18] [INFO] Loaded script client_scripts:hiding_from_JEI.js in 0.001 s
-[17:10:18] [INFO] Loaded 1/1 KubeJS client scripts in 0.048 s with 0 errors and 0 warnings
-[17:10:26] [INFO] Client resource reload complete!
