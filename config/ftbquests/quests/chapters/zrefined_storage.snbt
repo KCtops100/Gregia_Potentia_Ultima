@@ -1,0 +1,418 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zrefined_storage"
+	group: "018563AA18E6EC52"
+	icon: "kubejs:refined_advanced_processor"
+	id: "26450C2832BB7B83"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3AE11928CE256C21"
+			tasks: [
+				{
+					id: "5AEE8F55C1A34D3F"
+					item: "kubejs:refined_basic_processor"
+					type: "item"
+				}
+				{
+					id: "08EEC5B632C08A03"
+					item: "kubejs:refined_improved_processor"
+					type: "item"
+				}
+				{
+					id: "6E98FE3B69165FCC"
+					item: "kubejs:refined_advanced_processor"
+					type: "item"
+				}
+				{
+					id: "35E604D5393D7001"
+					item: "kubejs:refined_construction_core"
+					type: "item"
+				}
+				{
+					id: "240B3F96D85CDE5F"
+					item: "kubejs:refined_destruction_core"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AE11928CE256C21"]
+			description: ["To begin your journey into advanced storage solutions, you must first craft the essential Controller component for the Refined Storage system. Previously, the crafting process required simpler materials and steps, but now it demands more complex components. You will need to utilize advanced processors, steel plates, and machine casings. Additionally, you’ll be working with specialized fluids and machinery to assemble this critical component. This change reflects the enhanced complexity of technology in this modpack. Craft the Controller to unlock further possibilities in your storage network."]
+			id: "7154D0E0CD06752D"
+			rewards: [{
+				id: "72BA230D7930BC40"
+				item: "refinedstorage:wrench"
+				type: "item"
+			}]
+			subtitle: "From Basic to Advanced"
+			tasks: [{
+				id: "1A4CE0EAD1E63A48"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Mastering the Controller"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7154D0E0CD06752D"]
+			description: ["The construction of the Refined Storage Grid now requires more advanced materials and the use of specialized machinery. Utilize the assembler to carefully combine the required components and fluids to create the essential Grid for your network."]
+			id: "37B3AADA7752B91B"
+			optional: true
+			subtitle: "Master the New Assembly Process"
+			tasks: [{
+				id: "46AF5367B4FD9612"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			title: "Reconstructing the Grid"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7154D0E0CD06752D"]
+			id: "664B0B67EEE22E6F"
+			tasks: [{
+				id: "01817E07EA99DDB5"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7154D0E0CD06752D"]
+			id: "3AA15D7DD4D6E779"
+			tasks: [{
+				id: "1D40B4A834D8FF59"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7154D0E0CD06752D"]
+			id: "3A312A515566C802"
+			tasks: [{
+				id: "4B14024C547B33C9"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A312A515566C802"]
+			id: "57B5DBF542885C89"
+			tasks: [{
+				id: "66041A6F10A95367"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57B5DBF542885C89"]
+			description: ["To enhance your crafting capabilities, you need to build the Crafter from Refined Storage. Previously, the recipe was straightforward, but in this modpack, it now demands more intricate components. Crafting the Crafter now involves advanced processors, construction and destruction cores, steel plates, and machine hulls. This process requires specialized fluids and machinery to complete. By mastering this updated recipe, you will significantly advance your automation capabilities. Assemble the Crafter to streamline your production processes."]
+			id: "6B04C80A06804A9F"
+			subtitle: "From Manual to Automated"
+			tasks: [{
+				id: "2336F7F232CD9895"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			title: "Advanced Crafting Automation"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B04C80A06804A9F"]
+			description: ["You'll need to construct the Crafter Manager from Refined Storage. Previously, crafting this item required basic components, but now the process involves more advanced materials. The updated recipe for the Crafter Manager requires advanced processors, construction and destruction cores, and additional components such as machine hulls and computer monitor covers. These components must be processed with specialized fluids."]
+			id: "7D48B26437C748B7"
+			subtitle: "Upgrading Your Automation Hub"
+			tasks: [{
+				id: "1962AC72917481F4"
+				item: "refinedstorage:crafter_manager"
+				type: "item"
+			}]
+			title: "Crafter Manager Assembly"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B04C80A06804A9F"]
+			id: "615FAA121948C0C0"
+			tasks: [{
+				id: "247484CA73EA3172"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7154D0E0CD06752D"]
+			description: ["The Wireless Transmitter now requires more advanced components. Utilize the assembler to combine an advanced processor, a high-voltage field generator, steel plates, and a refined storage cable. This refined process results in a powerful Wireless Transmitter, enabling extended wireless access to your storage network."]
+			id: "6DA217CA00C0E6F5"
+			subtitle: "Transmitting Beyond Limits"
+			tasks: [{
+				id: "06ECE63121F13D2C"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			title: "Wireless Connectivity"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DA217CA00C0E6F5"]
+			description: ["The Wireless Grid recipe has been upgraded for enhanced functionality. You will need to assemble advanced components, including an HV Field Generator, computer monitor cover, and steel plates, along with an advanced processor. Use the assembler to bring these materials together, resulting in a Wireless Grid that extends your storage network capabilities."]
+			id: "7CC548BD0F2C7873"
+			subtitle: "Crafting a Wireless Grid"
+			tasks: [{
+				id: "0BE6F7B570D984DD"
+				item: "refinedstorage:wireless_grid"
+				type: "item"
+			}]
+			title: "Remote Access"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DA217CA00C0E6F5"]
+			description: ["To upgrade your fluid management system, you must craft a Wireless Fluid Grid. This new recipe replaces the standard crafting with an advanced assembly process. Utilize a variety of components such as an HV Field Generator, computer monitor cover, steel plates, and advanced processors in the assembler. This will result in a Wireless Fluid Grid, allowing you to manage your fluids wirelessly."]
+			id: "292C6735A382BEF5"
+			optional: true
+			subtitle: "Creating a Wireless Fluid Grid"
+			tasks: [{
+				id: "016034988BD6ABD0"
+				item: "refinedstorage:wireless_fluid_grid"
+				type: "item"
+			}]
+			title: "Fluid Network Access"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6B04C80A06804A9F"
+				"6DA217CA00C0E6F5"
+			]
+			id: "008BA11B84B930D9"
+			tasks: [{
+				id: "230F2F049F01D235"
+				item: "refinedstorage:wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CC548BD0F2C7873"]
+			id: "14C7A8284F52B615"
+			tasks: [{
+				id: "34EC2C97C61CDD95"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11B1FB8AB6B031E3"]
+			id: "780A0411AE8479A8"
+			tasks: [
+				{
+					id: "349EFA8CA1CA5DE5"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+				{
+					id: "4282BF4FF4D3D102"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7154D0E0CD06752D"]
+			id: "11B1FB8AB6B031E3"
+			tasks: [{
+				id: "15479C73189806D6"
+				item: "refinedstorage:network_card"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11B1FB8AB6B031E3"]
+			id: "58862203849FCD5A"
+			optional: true
+			tasks: [{
+				id: "19380ECEC8316F16"
+				item: "refinedstorage:security_card"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58862203849FCD5A"]
+			id: "515E5033C49149E9"
+			optional: true
+			tasks: [{
+				id: "6D4F36DAD6BDF93C"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AE11928CE256C21"]
+			description: ["The process for creating upgrades has evolved. Crafting them now requires the use of advanced materials and a more intricate assembly method. Use the assembler to combine the refined processor, steel plates, and nether quartz plates, along with molten glass, to produce a powerful upgrade for your Refined Storage system."]
+			id: "447DEA70DE4A449F"
+			subtitle: "A Refined Craft"
+			tasks: [{
+				id: "71EC412900B4C998"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			title: "Enhanced Upgrades"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["447DEA70DE4A449F"]
+			description: ["The crafting of the Speed Upgrade has been refined, now requiring specialized components for increased efficiency. Utilize the assembler to combine an upgrade with a conveyor module, enhanced by a lubricant infusion, to achieve a more efficient Speed Upgrade."]
+			id: "5A4A44D5F11389DF"
+			subtitle: "Speed Matters"
+			tasks: [{
+				id: "402543317672C5D0"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			title: "Acceleration"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A4A44D5F11389DF"]
+			description: ["The method to craft the Stack Upgrade has been modified for greater efficiency. Using the assembler, combine four Speed Upgrades with glue to create a powerful Stack Upgrade, capable of significantly boosting your storage system's performance."]
+			id: "6D020B89E6872A2A"
+			subtitle: "Stacking the Odds"
+			tasks: [{
+				id: "6623403FDE17A39B"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			title: "Maximized Efficiency"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["447DEA70DE4A449F"]
+			id: "74B60E375ED08F67"
+			optional: true
+			tasks: [{
+				id: "734DF427CD735B6B"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["447DEA70DE4A449F"]
+			id: "3542AC10AC3C51A9"
+			tasks: [{
+				id: "17D02A80FBD2BC4B"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["447DEA70DE4A449F"]
+			id: "59085334682D94C0"
+			tasks: [{
+				id: "31FA443A6ED365A7"
+				item: "refinedstorage:regulator_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["447DEA70DE4A449F"]
+			id: "339B59C79BE13366"
+			optional: true
+			tasks: [{
+				id: "3358313B65CE3DAF"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["447DEA70DE4A449F"]
+			id: "2ACA5281ED33C97A"
+			optional: true
+			tasks: [{
+				id: "3B21CAB740BB724E"
+				item: "refinedstorage:fortune_1_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2ACA5281ED33C97A"]
+			id: "33F05CBF7E0A1AAF"
+			optional: true
+			tasks: [{
+				id: "6E809FAF26A68AF8"
+				item: "refinedstorage:fortune_2_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33F05CBF7E0A1AAF"]
+			id: "4BB9D8C75F7E652B"
+			optional: true
+			tasks: [{
+				id: "2E6326E72446E732"
+				item: "refinedstorage:fortune_3_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7154D0E0CD06752D"]
+			id: "1AB5143DA532E81F"
+			tasks: [{
+				id: "2C947C6AE25A547A"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "Refined Storage"
+}
