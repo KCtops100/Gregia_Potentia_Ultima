@@ -271,7 +271,15 @@ JEIEvents.hideItems((event) => {
         'refinedstorage:creative_wireless_crafting_monitor',
         'refinedstorage:creative_wireless_fluid_grid',
         'refinedstorage:creative_wireless_grid',
-        'refinedstorageaddons:creative_wireless_crafting_grid'
+        'refinedstorageaddons:creative_wireless_crafting_grid',
+        'extrastorage:block_256k',
+        'extrastorage:block_1024k',
+        'extrastorage:block_4096k',
+        'extrastorage:block_16384k',
+        'extrastorage:block_16384k_fluid',
+        'extrastorage:block_65536k_fluid',
+        'extrastorage:block_262144k_fluid',
+        'extrastorage:block_1048576k_fluid'
     ];
 
     itemsToHide.forEach((item) => {

@@ -23,7 +23,15 @@ ServerEvents.recipes(event => {
         'refinedstorage:256k_fluid_storage_block',
         'refinedstorage:1024k_fluid_storage_block',
         'refinedstorage:4096k_fluid_storage_block',
-        'refinedstorage:creative_fluid_storage_block'
+        'refinedstorage:creative_fluid_storage_block',
+        'extrastorage:block_256k',
+        'extrastorage:block_1024k',
+        'extrastorage:block_4096k',
+        'extrastorage:block_16384k',
+        'extrastorage:block_16384k_fluid',
+        'extrastorage:block_65536k_fluid',
+        'extrastorage:block_262144k_fluid',
+        'extrastorage:block_1048576k_fluid'
     ];
 
     itemsToRemove.forEach((item) => {
