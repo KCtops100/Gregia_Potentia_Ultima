@@ -10,5 +10,4 @@ ServerEvents.recipes(event => {
         )
         .duration(20)
         .EUt(32)
-})  // ['refinedstorage:crafting_upgrade', 'kubejs:refined_construction_core',
-// '5x gtceu:steel_plate', 'refinedstorage:upgrade', 'gtceu:good_electronic_circuit']
+})

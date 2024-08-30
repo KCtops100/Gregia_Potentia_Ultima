@@ -13,4 +13,4 @@ ServerEvents.recipes(event => {
         )
         .duration(20)
         .EUt(32)
-})  // ['refinedstorage:speed_upgrade', 'refinedstorage:upgrade', 'gtceu:lv_conveyor_module']
+})
