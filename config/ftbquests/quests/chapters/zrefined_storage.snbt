@@ -148,12 +148,15 @@
 		}
 		{
 			dependencies: ["6B04C80A06804A9F"]
+			description: ["The Crafting Monitor is an essential tool for managing your crafting operations within Refined Storage. Previously, it was crafted using simpler materials. In the updated recipe, you will need improved processors, machine hulls, and computer monitor covers. Additionally, the crafting process requires specialized fluids, either soldering alloy or tin, which are used in advanced assembly machines."]
 			id: "615FAA121948C0C0"
+			subtitle: "Refining Your Crafting System"
 			tasks: [{
 				id: "247484CA73EA3172"
 				item: "refinedstorage:crafting_monitor"
 				type: "item"
 			}]
+			title: "Crafting Monitor Upgrade"
 			x: 6.0d
 			y: 0.0d
 		}
