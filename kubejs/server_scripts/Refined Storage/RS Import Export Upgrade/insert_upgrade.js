@@ -2,14 +2,18 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'refinedstorage:stack_upgrade' })
     event.recipes.gtceu.assembler('refinedstorage:stack_upgrade')
         .itemInputs(
-            '4x refinedstorage:speed_upgrade'
+            '4x refinedstorage:speed_upgrade',
+            'refinedstorage:stack_upgrade',
+            '#gtceu:circuits/hv'
         )
         .itemOutputs(
-            'refinedstorage:speed_upgrade'
+            'rsinsertexportupgrade:insert_upgrade'
         )
         .inputFluids(
             Fluid.of('gtceu:glue', 1000)
         )
         .duration(20)
         .EUt(32)
-})  // ['refinedstorage:speed_upgrade', 'refinedstorage:upgrade', 'gtceu:lv_conveyor_module']
+        .circuit(0)
+})
+// 'rsinsertexportupgrade:insert_upgrade', 'rsinsertexportupgrade:export_upgrade']
