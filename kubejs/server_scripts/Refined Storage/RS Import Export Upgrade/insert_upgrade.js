@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'refinedstorage:stack_upgrade' })
-    event.recipes.gtceu.assembler('refinedstorage:stack_upgrade')
+    event.remove({ output: 'rsinsertexportupgrade:insert_upgrade' })
+    event.recipes.gtceu.assembler('rsinsertexportupgrade:insert_upgrade')
         .itemInputs(
             '4x refinedstorage:speed_upgrade',
             'refinedstorage:stack_upgrade',
@@ -16,4 +16,3 @@ ServerEvents.recipes(event => {
         .EUt(32)
         .circuit(0)
 })
-// 'rsinsertexportupgrade:insert_upgrade', 'rsinsertexportupgrade:export_upgrade']
