@@ -5,8 +5,9 @@ ServerEvents.recipes(event => {
             '2x kubejs:refined_advanced_processor',
             'kubejs:refined_construction_core',
             'kubejs:refined_destruction_core',
-            'gtceu:lv_machine_hull',
-            '4x gtceu:steel_plate'
+            'gtceu:mv_machine_hull',
+            '#gtceu:circuits/mv',
+            '4x gtceu:aluminium_plate'
         )
         .inputFluids(
             Fluid.of('gtceu:soldering_alloy', 72)
@@ -21,8 +22,9 @@ ServerEvents.recipes(event => {
             '2x kubejs:refined_advanced_processor',
             'kubejs:refined_construction_core',
             'kubejs:refined_destruction_core',
-            'gtceu:lv_machine_hull',
-            '4x gtceu:steel_plate'
+            'gtceu:mv_machine_hull',
+            '#gtceu:circuits/mv',
+            '4x gtceu:aluminium_plate'
         )
         .inputFluids(
             Fluid.of('gtceu:tin', 144)
