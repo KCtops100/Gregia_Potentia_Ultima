@@ -1,17 +1,33 @@
-ServerEvents.recipes(event=> {
+ServerEvents.recipes(event => {
     event.remove({ output: 'extrastorage:iron_crafter' })
-    event.shaped(
-        Item.of('extrastorage:iron_crafter', 1),
-        [
-            'SHS',
-            'CLC',
-            'SCS'
-        ],
-        {
-            S:  'gtceu:steel_plate',
-            H:  '#gtceu:circuits/hv',
-            C:  'refinedstorage:crafter',
-            L:  'gtceu:hv_machine_hull'
-        }
-    )
+    event.recipes.gtceu.assembler('extrastorage:iron_crafter')
+        .itemInputs(
+            '3x refinedstorage:crafter',
+            'gtceu:hv_machine_hull',
+            '#gtceu:circuits/hv',
+            '4x gtceu:stainless_steel_plate'
+        )
+        .inputFluids(
+            Fluid.of('gtceu:soldering_alloy', 72)
+        )
+        .itemOutputs(
+            'extrastorage:iron_crafter'
+        )
+        .duration(20 * 60)
+        .EUt(32)
+    event.recipes.gtceu.assembler('extrastorage:iron_crafter')
+        .itemInputs(
+            '3x refinedstorage:crafter',
+            'gtceu:hv_machine_hull',
+            '#gtceu:circuits/hv',
+            '4x gtceu:stainless_steel_plate'
+        )
+        .inputFluids(
+            Fluid.of('gtceu:tin', 144)
+        )
+        .itemOutputs(
+            'extrastorage:iron_crafter'
+        )
+        .duration(20 * 60)
+        .EUt(32)
 })
