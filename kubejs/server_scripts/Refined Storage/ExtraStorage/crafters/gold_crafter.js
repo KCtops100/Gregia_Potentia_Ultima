@@ -4,8 +4,8 @@ ServerEvents.recipes(event => {
         .itemInputs(
             '2x kubejs:refined_neural_processor',
             '5x refinedstorage:crafter',
-            'gtceu:hv_machine_hull',
-            '#gtceu:circuits/hv',
+            'gtceu:ev_machine_hull',
+            '#gtceu:circuits/ev',
             '4x gtceu:titanium_plate'
         )
         .inputFluids(
