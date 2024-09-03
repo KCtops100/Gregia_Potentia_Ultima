@@ -31,7 +31,11 @@ ServerEvents.recipes(event => {
         'extrastorage:block_16384k_fluid',
         'extrastorage:block_65536k_fluid',
         'extrastorage:block_262144k_fluid',
-        'extrastorage:block_1048576k_fluid'
+        'extrastorage:block_1048576k_fluid',
+        'extrastorage:advanced_importer',
+        'extrastorage:advanced_exporter',
+        'extrastorage:raw_neural_processor',
+        'extrastorage:neural_processor'
     ];
 
     itemsToRemove.forEach((item) => {
