@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
             'refinedstorage:refined_destruction_core',
             'gtceu:iv_machine_hull',
             '4x gtceu:steel_plate',
-            'gtceu:tungstensteel_plate',
+            'gtceu:tungsten_steel_plate',
             '#gtceu:circuits/iv'
         )
         .itemOutputs(

@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
             'gtceu:ev_machine_hull',
             '4x gtceu:steel_plate',
             'gtceu:titanium_plate',
-            '#gtceu:circuits/v'
+            '#gtceu:circuits/ev'
         )
         .itemOutputs(
             'cabletiers:mega_disk_manipulator'
