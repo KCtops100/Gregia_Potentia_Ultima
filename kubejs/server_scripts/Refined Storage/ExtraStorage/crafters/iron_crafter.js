@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'extrastorage:iron_crafter' })
     event.recipes.gtceu.assembler('extrastorage:iron_crafter1')
         .itemInputs(
-            '2x kubejs:refined_neural_processor',
+            '2x refinedstorage:refined_neural_processor',
             '3x refinedstorage:crafter',
             'gtceu:hv_machine_hull',
             '#gtceu:circuits/hv',
@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
         .EUt(32)
     event.recipes.gtceu.assembler('extrastorage:iron_crafter2')
         .itemInputs(
-            '2x kubejs:refined_neural_processor',
+            '2x refinedstorage:refined_neural_processor',
             '3x refinedstorage:crafter',
             'gtceu:hv_machine_hull',
             '#gtceu:circuits/hv',
