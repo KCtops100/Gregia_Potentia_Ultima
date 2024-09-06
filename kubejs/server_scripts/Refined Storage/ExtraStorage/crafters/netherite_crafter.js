@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'extrastorage:netherite_crafter' })
     event.recipes.gtceu.assembler('extrastorage:netherite_crafter1')
         .itemInputs(
-            '2x kubejs:refined_neural_processor',
+            '2x refinedstorage:refined_neural_processor',
             '9x refinedstorage:crafter',
             'gtceu:luv_machine_hull',
             '#gtceu:circuits/luv',
@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
         .EUt(32)
     event.recipes.gtceu.assembler('extrastorage:netherite_crafter2')
         .itemInputs(
-            '2x kubejs:refined_neural_processor',
+            '2x refinedstorage:refined_neural_processor',
             '9x refinedstorage:crafter',
             'gtceu:luv_machine_hull',
             '#gtceu:circuits/luv',

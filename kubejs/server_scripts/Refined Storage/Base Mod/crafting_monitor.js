@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
         .itemInputs(
             'gtceu:lv_machine_hull',
             'gtceu:computer_monitor_cover',
-            '2x kubejs:refined_improved_processor',
+            '2x refinedstorage:refined_improved_processor',
         )
         .inputFluids(
             Fluid.of('gtceu:soldering_alloy', 72)
@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
         .itemInputs(
             'gtceu:lv_machine_hull',
             'gtceu:computer_monitor_cover',
-            '2x kubejs:refined_improved_processor',
+            '2x refinedstorage:refined_improved_processor',
         )
         .inputFluids(
             Fluid.of('gtceu:tin', 144)

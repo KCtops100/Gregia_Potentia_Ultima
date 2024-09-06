@@ -2,7 +2,7 @@ ServerEvents.recipes(event=> {
     event.remove({ output: 'refinedstorage:destructor' })
     event.recipes.gtceu.assembler('refinedstorage:destructor1')
         .itemInputs(
-            'kubejs:refined_improved_processor',
+            'refinedstorage:refined_improved_processor',
             'refinedstorage:destruction_core',
             'minecraft:dispenser'
         )

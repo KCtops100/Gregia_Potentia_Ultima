@@ -3,7 +3,7 @@ ServerEvents.recipes(event=> {
     event.recipes.gtceu.assembler('refinedstorage:exporter1')
         .itemInputs(
             'refinedstorage:cable',
-            'kubejs:refined_improved_processor',
+            'refinedstorage:refined_improved_processor',
             'refinedstorage:construction_core'
         )
         .inputFluids(

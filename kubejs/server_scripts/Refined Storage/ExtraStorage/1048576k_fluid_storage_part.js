@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'extrastorage:storagepart_1048576k_fluid' })
     event.recipes.gtceu.assembler('extrastorage:storagepart_1048576k_fluid')
         .itemInputs(
-            '4x kubejs:refined_basic_processor',
+            '4x refinedstorage:refined_basic_processor',
             'gtceu:steel_plate',
             '#gtceu:circuits/uv',
             '3x extrastorage:storagepart_262144k_fluid'
