@@ -12,7 +12,7 @@ ServerEvents.recipes(event=> {
             C: 'refinedstorage:construction_core',
             D: 'refinedstorage:construction_core',
             H: 'forge:chests',
-            P: 'kubejs:improved_processor',
+            P: 'refinedstorage:improved_processor',
             M: 'gtceu:lv_field_generator'
         }
     )

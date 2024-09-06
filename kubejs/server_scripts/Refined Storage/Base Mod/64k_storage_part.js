@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'refinedstorage:64k_storage_part' })
     event.recipes.gtceu.assembler('refinedstorage:64k_storage_part')
         .itemInputs(
-            '4x kubejs:refined_advanced_processor',
+            '4x refinedstorage:refined_advanced_processor',
             'gtceu:steel_plate',
             '#gtceu:circuits/ev',
             '3x refinedstorage:16k_storage_part'
