@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
             '4x refinedstorage:speed_upgrade'
         )
         .itemOutputs(
-            'refinedstorage:speed_upgrade'
+            'refinedstorage:stack_upgrade'
         )
         .inputFluids(
             Fluid.of('gtceu:glue', 1000)
