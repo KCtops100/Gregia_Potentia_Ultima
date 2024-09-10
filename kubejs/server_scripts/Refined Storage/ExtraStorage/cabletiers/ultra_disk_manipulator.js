@@ -4,10 +4,10 @@ ServerEvents.recipes(event => {
         .itemInputs(
             'refinedstorage:refined_construction_core',
             'refinedstorage:refined_destruction_core',
-            'gtceu:iv_machine_hull',
+            'gtceu:ev_machine_hull',
             '4x gtceu:steel_plate',
-            'gtceu:tungsten_steel_plate',
-            '#gtceu:circuits/iv'
+            'gtceu:titanium_plate',
+            '#gtceu:circuits/ev'
         )
         .itemOutputs(
             'cabletiers:ultra_disk_manipulator'

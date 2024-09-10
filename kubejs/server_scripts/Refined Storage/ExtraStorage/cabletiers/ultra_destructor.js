@@ -2,7 +2,7 @@ ServerEvents.recipes(event=> {
     event.remove({ output: 'cabletiers:ultra_destructor'})
     event.recipes.gtceu.assembler('cabletiers:ultra_destructor1')
         .itemInputs(
-            '#gtceu:circuits/iv',
+            '#gtceu:circuits/ev',
             'refinedstorage:destruction_core',
             'minecraft:dispenser'
         )

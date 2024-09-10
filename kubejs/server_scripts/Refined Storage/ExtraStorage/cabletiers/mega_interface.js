@@ -8,9 +8,9 @@ ServerEvents.recipes(event=> {
             'AAA'
         ],
         {
-            A: 'gtceu:titanium_plate',
-            B: 'gtceu:ev_robot_arm',
-            C: 'gtceu:ev_machine_hull'
+            A: 'gtceu:tungsten_steel_plate',
+            B: 'gtceu:iv_robot_arm',
+            C: 'gtceu:iv_machine_hull'
         }
     )
 })

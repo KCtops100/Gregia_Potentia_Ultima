@@ -3,7 +3,7 @@ ServerEvents.recipes(event=> {
     event.recipes.gtceu.assembler('cabletiers:ultra_importer1')
         .itemInputs(
             'refinedstorage:cable',
-            '#gtceu:circuits/iv',
+            '#gtceu:circuits/ev',
             'refinedstorage:destruction_core'
         )
         .inputFluids(
