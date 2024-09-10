@@ -1,9 +1,9 @@
-ServerEvents.recipes(event=> {
-    event.remove({ output: 'cabletiers:mega_exporter' })
-    event.recipes.gtceu.assembler('cabletiers:mega_exporter1')
+ServerEvents.recipes(ivent=> {
+    ivent.remove({ output: 'cabletiers:mega_exporter' })
+    ivent.recipes.gtceu.assembler('cabletiers:mega_exporter1')
         .itemInputs(
             'refinedstorage:cable',
-            '#gtceu:circuits/ev',
+            '#gtceu:circuits/iv',
             'refinedstorage:construction_core'
         )
         .inputFluids(

@@ -1,8 +1,8 @@
-ServerEvents.recipes(event=> {
-    event.remove({ output: 'cabletiers:mega_constructor' })
-    event.recipes.gtceu.assembler('cabletiers:mega_constructor1')
+ServerEvents.recipes(ivent=> {
+    ivent.remove({ output: 'cabletiers:mega_constructor' })
+    ivent.recipes.gtceu.assembler('cabletiers:mega_constructor1')
         .itemInputs(
-            '#gtceu:circuits/ev',
+            '#gtceu:circuits/iv',
             'refinedstorage:construction_core',
             'minecraft:dispenser'
         )

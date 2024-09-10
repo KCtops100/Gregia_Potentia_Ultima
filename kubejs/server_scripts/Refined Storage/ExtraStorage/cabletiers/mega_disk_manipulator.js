@@ -1,13 +1,13 @@
-ServerEvents.recipes(event => {
-    event.remove({ output: 'cabletiers:mega_disk_manipulator' })
-    event.recipes.gtceu.assembler('cabletiers:mega_disk_manipulator')
+ServerEvents.recipes(ivent => {
+    ivent.remove({ output: 'cabletiers:mega_disk_manipulator' })
+    ivent.recipes.gtceu.assembler('cabletiers:mega_disk_manipulator')
         .itemInputs(
             'refinedstorage:refined_construction_core',
             'refinedstorage:refined_destruction_core',
-            'gtceu:ev_machine_hull',
+            'gtceu:iv_machine_hull',
             '4x gtceu:steel_plate',
-            'gtceu:titanium_plate',
-            '#gtceu:circuits/ev'
+            'gtceu:tungsten_steel_plate',
+            '#gtceu:circuits/iv'
         )
         .itemOutputs(
             'cabletiers:mega_disk_manipulator'

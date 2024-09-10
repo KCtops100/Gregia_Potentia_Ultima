@@ -1,6 +1,6 @@
-ServerEvents.recipes(event=> {
-    event.remove({ output: 'cabletiers:mega_interface' })
-    event.shaped(
+ServerEvents.recipes(ivent=> {
+    ivent.remove({ output: 'cabletiers:mega_interface' })
+    ivent.shaped(
         Item.of('cabletiers:mega_interface', 1),
         [
             'ABA',
@@ -8,9 +8,9 @@ ServerEvents.recipes(event=> {
             'AAA'
         ],
         {
-            A: 'gtceu:titanium_plate',
-            B: 'gtceu:ev_robot_arm',
-            C: 'gtceu:ev_machine_hull'
+            A: 'gtceu:tungsten_steel_plate',
+            B: 'gtceu:iv_robot_arm',
+            C: 'gtceu:iv_machine_hull'
         }
     )
 })
