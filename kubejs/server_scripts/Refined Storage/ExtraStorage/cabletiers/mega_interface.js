@@ -1,6 +1,6 @@
-ServerEvents.recipes(ivent=> {
-    ivent.remove({ output: 'cabletiers:mega_interface' })
-    ivent.shaped(
+ServerEvents.recipes(event=> {
+    event.remove({ output: 'cabletiers:mega_interface' })
+    event.shaped(
         Item.of('cabletiers:mega_interface', 1),
         [
             'ABA',
