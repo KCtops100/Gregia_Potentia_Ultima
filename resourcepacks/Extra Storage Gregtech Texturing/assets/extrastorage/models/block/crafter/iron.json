@@ -1,0 +1,16 @@
+{
+  "parent": "refinedstorage:block/cube_cutout",
+  "textures": {
+    "particle": "extrastorage:block/crafter/iron/cutouts/side_disconnected",
+    "east": "extrastorage:block/crafter/iron/cutouts/side_disconnected",
+    "south": "extrastorage:block/crafter/iron/cutouts/side_disconnected",
+    "west": "extrastorage:block/crafter/iron/cutouts/side_disconnected",
+    "up": "extrastorage:block/crafter/iron/cutouts/top_disconnected",
+    "north": "extrastorage:block/crafter/iron/cutouts/side_disconnected",
+    "cutout_east": "extrastorage:block/crafter/iron/cutouts/side_connected",
+    "cutout_west": "extrastorage:block/crafter/iron/cutouts/side_connected",
+    "cutout_south": "extrastorage:block/crafter/iron/cutouts/side_connected",
+    "cutout_north": "extrastorage:block/crafter/iron/cutouts/side_connected",
+    "cutout_up": "extrastorage:block/crafter/iron/cutouts/top_connected"
+  }
+}
