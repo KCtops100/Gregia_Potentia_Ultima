@@ -2,8 +2,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'refinedstorage:disk_manipulator' })
     event.recipes.gtceu.assembler('refinedstorage:disk_manipulator')
         .itemInputs(
-            'refinedstorage:refined_construction_core',
-            'refinedstorage:refined_destruction_core',
+            'refinedstorage:construction_core',
+            'refinedstorage:destruction_core',
             'gtceu:lv_machine_hull',
             '4x gtceu:steel_plate',
             'gtceu:aluminium_plate',

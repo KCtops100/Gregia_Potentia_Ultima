@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         {
             S: 'gtceu:steel_wrench',
             P: 'gtceu:lv_power_unit',
-            B: 'refinedstorage:refined_basic_processor'
+            B: 'refinedstorage:basic_processor'
         }
     )
 })

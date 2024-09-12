@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'refinedstorage:wireless_grid' })
     event.recipes.gtceu.assembler('refinedstorage:wireless_grid')
         .itemInputs(
-            'refinedstorage:refined_advanced_processor',
+            'refinedstorage:advanced_processor',
             '6x gtceu:steel_plate',
             'gtceu:computer_monitor_cover',
             'gtceu:hv_field_generator',

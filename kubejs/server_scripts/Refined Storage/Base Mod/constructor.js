@@ -2,7 +2,7 @@ ServerEvents.recipes(event=> {
     event.remove({ output: 'refinedstorage:constructor' })
     event.recipes.gtceu.assembler('refinedstorage:constructor1')
         .itemInputs(
-            'refinedstorage:refined_improved_processor',
+            'refinedstorage:improved_processor',
             'refinedstorage:construction_core',
             'minecraft:dispenser'
         )

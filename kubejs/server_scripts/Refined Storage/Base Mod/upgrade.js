@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'refinedstorage:upgrade' })
     event.recipes.gtceu.assembler('refinedstorage:upgrade')
         .itemInputs(
-            'refinedstorage:refined_improved_processor',
+            'refinedstorage:improved_processor',
             '3x gtceu:steel_plate',
             '3x gtceu:nether_quartz_plate'
         )

@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'refinedstorage:network_card' })
     event.recipes.gtceu.assembler('refinedstorage:network_card1')
         .itemInputs(
-            'refinedstorage:refined_advanced_processor',
+            'refinedstorage:advanced_processor',
             '3x gtceu:steel_plate',
             '3x gtceu:nether_quartz_plate',
             '2x minecraft:paper'
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         .EUt(32)
     event.recipes.gtceu.assembler('refinedstorage:network_card2')
         .itemInputs(
-            'refinedstorage:refined_advanced_processor',
+            'refinedstorage:advanced_processor',
             '3x gtceu:steel_plate',
             '3x gtceu:nether_quartz_plate',
             '2x minecraft:paper'

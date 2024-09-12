@@ -2,9 +2,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'refinedstorage:crafter' })
     event.recipes.gtceu.assembler('refinedstorage:crafter1')
         .itemInputs(
-            '2x refinedstorage:refined_advanced_processor',
-            'refinedstorage:refined_construction_core',
-            'refinedstorage:refined_destruction_core',
+            '2x refinedstorage:advanced_processor',
+            'refinedstorage:construction_core',
+            'refinedstorage:destruction_core',
             'gtceu:mv_machine_hull',
             '#gtceu:circuits/mv',
             '4x gtceu:aluminium_plate'
@@ -19,9 +19,9 @@ ServerEvents.recipes(event => {
         .EUt(32)
     event.recipes.gtceu.assembler('refinedstorage:crafter2')
         .itemInputs(
-            '2x refinedstorage:refined_advanced_processor',
-            'refinedstorage:refined_construction_core',
-            'refinedstorage:refined_destruction_core',
+            '2x refinedstorage:advanced_processor',
+            'refinedstorage:construction_core',
+            'refinedstorage:destruction_core',
             'gtceu:mv_machine_hull',
             '#gtceu:circuits/mv',
             '4x gtceu:aluminium_plate'
