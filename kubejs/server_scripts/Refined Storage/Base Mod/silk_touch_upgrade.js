@@ -10,4 +10,4 @@ ServerEvents.recipes(event => {
         .duration(20)
         .EUt(32)
         .circuit(0)
-})  // ['refinedstorage:silk_touch_upgrade', 'refinedstorage:upgrade']
+})

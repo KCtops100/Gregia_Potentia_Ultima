@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
         .itemInputs(
             'gtceu:lv_machine_hull',
             '4x gtceu:steel_plate',
-            'refinedstorage:refined_advanced_processor',
+            'refinedstorage:advanced_processor',
             '3x refinedstorage:cable'
         )
         .inputFluids(
@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         .itemInputs(
             'gtceu:lv_machine_hull',
             '4x gtceu:steel_plate',
-            'refinedstorage:refined_advanced_processor',
+            'refinedstorage:advanced_processor',
             '3x refinedstorage:cable'
         )
         .inputFluids(

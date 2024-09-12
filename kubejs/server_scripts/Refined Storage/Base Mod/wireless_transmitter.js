@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'refinedstorage:wireless_transmitter' })
     event.recipes.gtceu.assembler('refinedstorage:wireless_transmitter')
         .itemInputs(
-            'refinedstorage:refined_advanced_processor',
+            'refinedstorage:advanced_processor',
             'gtceu:hv_field_generator',
             '3x gtceu:steel_plate',
             'refinedstorage:cable'

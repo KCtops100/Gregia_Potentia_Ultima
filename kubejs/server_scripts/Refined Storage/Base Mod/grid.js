@@ -4,9 +4,9 @@ ServerEvents.recipes(event => {
         .itemInputs(
             'gtceu:lv_machine_hull',
             'gtceu:computer_monitor_cover',
-            '2x refinedstorage:refined_improved_processor',
-            'refinedstorage:refined_construction_core',
-            'refinedstorage:refined_destruction_core'
+            '2x refinedstorage:improved_processor',
+            'refinedstorage:construction_core',
+            'refinedstorage:destruction_core'
         )
         .inputFluids(
             Fluid.of('gtceu:soldering_alloy', 72)
@@ -20,9 +20,9 @@ ServerEvents.recipes(event => {
         .itemInputs(
             'gtceu:lv_machine_hull',
             'gtceu:computer_monitor_cover',
-            '2x refinedstorage:refined_improved_processor',
-            'refinedstorage:refined_construction_core',
-            'refinedstorage:refined_destruction_core'
+            '2x refinedstorage:improved_processor',
+            'refinedstorage:construction_core',
+            'refinedstorage:destruction_core'
         )
         .inputFluids(
             Fluid.of('gtceu:tin', 144)

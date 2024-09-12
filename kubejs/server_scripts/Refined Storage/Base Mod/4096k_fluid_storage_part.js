@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'refinedstorage:4096k_fluid_storage_part' })
     event.recipes.gtceu.assembler('refinedstorage:4096k_fluid_storage_part')
         .itemInputs(
-            '4x refinedstorage:refined_basic_processor',
+            '4x refinedstorage:basic_processor',
             'gtceu:steel_plate',
             '#gtceu:circuits/ev',
             '3x refinedstorage:1024k_fluid_storage_part'
