@@ -21,8 +21,8 @@
 				type: "item"
 			}]
 			title: "Boiler"
-			x: 0.0d
-			y: 1.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			id: "5C2F224F565110DC"
@@ -49,8 +49,8 @@
 				type: "item"
 			}]
 			title: "Wrenches"
-			x: 0.0d
-			y: -0.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -66,8 +66,8 @@
 				type: "item"
 			}]
 			title: "Bronze Plates"
-			x: -2.5d
-			y: -0.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			id: "3EDC2ED070F6EA35"
@@ -92,8 +92,8 @@
 				type: "item"
 			}]
 			title: "Hammers"
-			x: -2.5d
-			y: -2.5d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["135640C05AFA154C"]
@@ -105,8 +105,8 @@
 				type: "item"
 			}]
 			title: "Steam Alloy Smelter"
-			x: 2.5d
-			y: 1.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["363AD8F69743C275"]
@@ -119,8 +119,8 @@
 				type: "item"
 			}]
 			title: "Solar Boiler"
-			x: 2.5d
-			y: -0.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["363AD8F69743C275"]
@@ -132,8 +132,8 @@
 				type: "item"
 			}]
 			title: "Extractor"
-			x: 4.5d
-			y: 1.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["363AD8F69743C275"]
@@ -146,8 +146,8 @@
 				type: "item"
 			}]
 			title: "forge hammer"
-			x: 4.5d
-			y: -0.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["363AD8F69743C275"]
@@ -184,8 +184,8 @@
 				}
 			]
 			title: "Steam Grinder"
-			x: 4.5d
-			y: 0.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74D03D0F1889D88C"]
@@ -197,7 +197,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			id: "74D03D0F1889D88C"
@@ -220,7 +220,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -235,7 +235,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3FAAE8C02E84BC27"]
@@ -255,8 +255,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 1.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["050BB750EDC25195"]
@@ -267,8 +267,8 @@
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -282,8 +282,8 @@
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3EEBA79CD24C60F4"]
@@ -294,8 +294,8 @@
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			id: "3EEBA79CD24C60F4"
@@ -308,8 +308,8 @@
 				to_observe: "gtceu:rubber_log"
 				type: "observation"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			id: "6B98B24C3DC3107B"
@@ -319,8 +319,8 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -334,8 +334,8 @@
 				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.5d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "62A091A44CB2AD40"
@@ -397,7 +397,7 @@
 			]
 			title: "Other basic tools"
 			x: -5.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -426,8 +426,8 @@
 				type: "item"
 			}]
 			title: "Wire Cutter"
-			x: -3.5d
-			y: 3.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			id: "0D502A7FB377E34A"
@@ -437,8 +437,8 @@
 				item: "gtceu:red_alloy_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -476,8 +476,8 @@
 				}
 			]
 			title: "Circuit parts"
-			x: -2.0d
-			y: 4.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4FBBB14BD27997A6"]
@@ -489,8 +489,8 @@
 				type: "item"
 			}]
 			title: "Your first circuit"
-			x: -0.5d
-			y: 3.5d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -516,8 +516,8 @@
 				}
 			]
 			title: "Revving up"
-			x: 1.5d
-			y: 3.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -532,8 +532,8 @@
 				type: "item"
 			}]
 			title: "Go for a spin"
-			x: 0.5d
-			y: 5.5d
+			x: 1.0d
+			y: 6.0d
 		}
 	]
 	title: "Genesis"
