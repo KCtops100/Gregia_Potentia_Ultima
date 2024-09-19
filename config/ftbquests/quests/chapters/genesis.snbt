@@ -430,6 +430,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["363AD8F69743C275"]
 			id: "0D502A7FB377E34A"
 			subtitle: "Made from copper and redstone. A necessary material for your first circuit."
 			tasks: [{
