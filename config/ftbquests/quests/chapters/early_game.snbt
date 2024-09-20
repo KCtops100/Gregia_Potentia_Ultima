@@ -1,0 +1,209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "early_game"
+	group: "40F3E6773A7DE230"
+	id: "7450C021A6797FC4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["666F57295207056F"]
+			id: "104DC0EEBEB141B8"
+			subtitle: "Making wire sucks, right? Well not anymore! This machine does it for you. You should begin to process as much as possible in machines."
+			tasks: [{
+				id: "602932BE73E080AE"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			title: "Wiremill"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["282383215617BCF8"]
+			description: ["You will need to have a Hammer, Crowbar, Screwdriver, Wrench, and Soft Mallet in your inventory and right click the maintenance hatch to fix all maintenance problems."]
+			icon: "gtceu:electric_blast_furnace"
+			id: "6534C8D5B22D711E"
+			subtitle: "Your first electric blast furnace. With this you will be able to make Aluminium ingots.  Note that the process is mv, so you need two lv amps to power the recipe."
+			tasks: [
+				{
+					id: "5C23C26A35797B1D"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "6652E7EC0E90D6B8"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "59909CF87DDD2403"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "60515EE5C565879E"
+					item: { Count: 9, id: "gtceu:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "18006A9FE62AD853"
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "671C15E2D509C36D"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "095D980B5ED0286F"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "569967AA6DE6A247"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "3E372734B1F7C3F9"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "22B7FC1B5F5DDFAE"
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					id: "05B0AD03B3C717D5"
+					item: {
+						Count: 1
+						id: "gtceu:iron_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A Better Blast Furnace"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "282383215617BCF8"
+			subtitle: "This machine is necessary for making advanced items."
+			tasks: [{
+				id: "2EFBCF4AFC432EC4"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "3F3631273F630FA1"
+			subtitle: "Use this for cheaper plates"
+			tasks: [{
+				id: "07B546CC7C1256A4"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "43D6EB96195DAE76"
+			subtitle: "electrify your alloy smelter!"
+			tasks: [{
+				id: "7A7E82C350C03027"
+				item: "gtceu:lv_alloy_smelter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"282383215617BCF8"
+				"2A2466DB69F16358"
+			]
+			id: "73A52CAC4431A964"
+			subtitle: "You need this for more advanced circuits."
+			tasks: [{
+				id: "597EBC0A1AA30119"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "2A2466DB69F16358"
+			subtitle: "This is expensive, for now, but you only need it for the circuit assembler before mv circuits become cheaper."
+			tasks: [{
+				id: "5FE04322027E68C9"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "First tier 2 circuit"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73A52CAC4431A964"]
+			id: "13C714CDD596A253"
+			tasks: [{
+				id: "6EC368AEA676C45E"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			title: "The Second Tier 1 Circuit"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13C714CDD596A253"]
+			id: "7319AB473A67321D"
+			subtitle: "MV circuits should be less torturous to make now."
+			tasks: [{
+				id: "673E5BB7B795B991"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			title: "The Second Tier 2 Circuit"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "7E2D4CB7339185A9"
+			subtitle: "Magnetize things"
+			tasks: [{
+				id: "4F798521BD44BBA8"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+	]
+	title: "early game"
+}

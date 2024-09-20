@@ -70,32 +70,6 @@
 			y: 0.0d
 		}
 		{
-			id: "3EDC2ED070F6EA35"
-			subtitle: "Smashing"
-			tasks: [{
-				id: "47F9800F2DBD98A6"
-				item: {
-					Count: 1
-					id: "gtceu:iron_hammer"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 2
-							MaxDamage: 255
-							ToolSpeed: 6.0f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			title: "Hammers"
-			x: -3.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["135640C05AFA154C"]
 			id: "363AD8F69743C275"
 			subtitle: "The first machine you'll need for crafting advanced components. The most important right now: Glass. You thought you would be able to smelt it? Welcome to Greg."
@@ -535,6 +509,60 @@
 			title: "Go for a spin"
 			x: 1.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["2008657CAB0C1303"]
+			description: [
+				"A Brief Description of Gregtech Power:"
+				""
+				"Each single-block power generator produces one amp of power at a particular voltage, and each single-block machine consumes one amp of power at a particular voltage. For now, that voltage is Low Voltage (LV). Each kind of wire has a size, a max voltage rating, and power loss. Power loss means that the longer your cable is, the more power is wasted in transporting that power through the wire. The higher the cable loss, on the tooltip, the more power will be lost. The size of a wire determines the maximum amperage that can go through the wire (1x = 1 amp, 2x = 2 amps, and so on). Do NOT overload the wire or it will catch on fire, and if that fire spreads to the machines, they can explode. Similarly, do NOT exceed the maximum voltage on a wire, or the results will be the same as exceeding the maximum amperage. "
+			]
+			icon: "gtceu:high_voltage_hazard_sign_block"
+			id: "666F57295207056F"
+			subtitle: "A brief summary."
+			tasks: [{
+				id: "6D974F1E6732E9AC"
+				title: "Gregtech Power"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			id: "06DD05AF983F9504"
+			tasks: [{
+				id: "2A7138F33B2442DC"
+				title: "FIX THE TOOLS TO BE GENERIC WITH ORE DICTIONARY"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "3EDC2ED070F6EA35"
+			subtitle: "Smashing"
+			tasks: [{
+				id: "47F9800F2DBD98A6"
+				item: {
+					Count: 1
+					id: "gtceu:iron_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Hammers"
+			x: -3.0d
+			y: -2.0d
 		}
 	]
 	title: "Genesis"
