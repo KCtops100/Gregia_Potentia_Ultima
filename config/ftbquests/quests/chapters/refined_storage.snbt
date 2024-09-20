@@ -1,0 +1,355 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "018563AA18E6EC52"
+	id: "7C6BA6E4B0E4BEF8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2F0EBADC63629E2D"
+			rewards: [{
+				id: "7143EFF96152A06D"
+				item: "refinedstorage:wrench"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4434AE5669C350B8"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "78AA28A6414D500C"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "465DDE246B414371"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+				{
+					id: "5675D45F62D4B4EE"
+					item: "refinedstorage:construction_core"
+					type: "item"
+				}
+				{
+					id: "095BDFBC41575C9C"
+					item: "refinedstorage:destruction_core"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7C10FF5B47BC2348"
+			tasks: [{
+				id: "4597FCCF0D821EE9"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2F0EBADC63629E2D"
+				"7C10FF5B47BC2348"
+			]
+			id: "435143A21F432893"
+			tasks: [{
+				id: "0A88F737FD6608DA"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["435143A21F432893"]
+			id: "6D735E43AFB3D5CF"
+			tasks: [{
+				id: "1CF0A2EF744E9D1F"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D735E43AFB3D5CF"]
+			id: "36D3DBD96F0F409E"
+			tasks: [{
+				id: "3D4781475CB19F50"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D735E43AFB3D5CF"]
+			id: "1C414C8C9625BAF1"
+			tasks: [{
+				id: "4162E295BAC4240D"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C414C8C9625BAF1"]
+			id: "1080C85FB68AE7EC"
+			tasks: [{
+				id: "6CF47B64927FF2B5"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1080C85FB68AE7EC"]
+			id: "14C41543AE82F753"
+			tasks: [{
+				id: "255D863433B60333"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14C41543AE82F753"]
+			id: "7F312AED23A3FA59"
+			optional: true
+			tasks: [{
+				id: "0BFCC6FC471ACF49"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14C41543AE82F753"]
+			id: "65D2D4C9F908F3C0"
+			optional: true
+			tasks: [{
+				id: "30D437A8F2C1982B"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14C41543AE82F753"]
+			id: "0C0306C773B140D5"
+			optional: true
+			tasks: [{
+				id: "2334F2F4B7837287"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14C41543AE82F753"]
+			id: "17678444793C662B"
+			optional: true
+			tasks: [{
+				id: "00CFA9EB03673F9C"
+				item: "extrastorage:netherite_crafter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14C41543AE82F753"]
+			id: "72A08751123EAF66"
+			optional: true
+			tasks: [{
+				id: "0F3B6639C38D9ACF"
+				item: "refinedstorage:crafter_manager"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14C41543AE82F753"]
+			id: "5BED88928507CB92"
+			tasks: [{
+				id: "415F47848417C2A0"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D735E43AFB3D5CF"]
+			id: "66FEFCBDC27DE2F0"
+			tasks: [{
+				id: "6A92E1F931F31D8A"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["192A35407E634655"]
+			id: "597B122D7F2F427E"
+			tasks: [{
+				id: "1E334643B740A333"
+				item: "refinedstorage:wireless_grid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["597B122D7F2F427E"]
+			id: "6C2B93E5CF42B9AB"
+			tasks: [{
+				id: "7533180445A6A97A"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["597B122D7F2F427E"]
+			id: "652192DE39D27791"
+			tasks: [{
+				id: "6F591FBB68BE9708"
+				item: "refinedstorage:wireless_fluid_grid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["597B122D7F2F427E"]
+			id: "7C9463144B5284BE"
+			tasks: [{
+				id: "235E5D31F6792FE9"
+				item: "refinedstorage:wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["435143A21F432893"]
+			id: "467EE2F168F0E523"
+			tasks: [{
+				id: "36BF522A1B207572"
+				item: "refinedstorage:network_card"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["467EE2F168F0E523"]
+			id: "3B58D2EA3EA06344"
+			tasks: [
+				{
+					id: "1818219B6B77F484"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+				{
+					id: "1C28E38ABA951B68"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["467EE2F168F0E523"]
+			id: "6CD4A046E4BCD1B4"
+			optional: true
+			tasks: [{
+				id: "3843297A0BD1BA4D"
+				item: "refinedstorage:security_card"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6CD4A046E4BCD1B4"]
+			id: "75AF16FB8E22A24B"
+			optional: true
+			tasks: [{
+				id: "241AD60DF3214F71"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["435143A21F432893"]
+			id: "192A35407E634655"
+			tasks: [{
+				id: "3A799296CBFF55A5"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["192A35407E634655"]
+			id: "7FFFE945BA17EC73"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0B3E3CBD280B631A"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D735E43AFB3D5CF"]
+			id: "00F9EEFC98B716B6"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2F3A469C3D120448"
+				item: "refinedstorage:filter"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["435143A21F432893"]
+			id: "6E0C3147FCEEE607"
+			tasks: [{
+				id: "34B58BE09D3A76E8"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Refined Storage"
+}
