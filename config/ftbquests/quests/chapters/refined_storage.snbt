@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["73A52CAC4431A964"]
 			id: "2F0EBADC63629E2D"
 			rewards: [{
 				id: "7143EFF96152A06D"
@@ -45,6 +46,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["282383215617BCF8"]
 			id: "7C10FF5B47BC2348"
 			tasks: [{
 				id: "4597FCCF0D821EE9"

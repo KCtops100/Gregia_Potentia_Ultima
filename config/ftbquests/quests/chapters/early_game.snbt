@@ -17,7 +17,7 @@
 				type: "item"
 			}]
 			title: "Wiremill"
-			x: -6.0d
+			x: -8.0d
 			y: -3.0d
 		}
 		{
@@ -125,7 +125,7 @@
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: -1.0d
 		}
 		{
@@ -137,7 +137,7 @@
 				item: "gtceu:lv_alloy_smelter"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -10.0d
 			y: -1.0d
 		}
 		{
@@ -153,9 +153,13 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
+			dependencies: [
+				"1899E6C86E351D49"
+				"7FFA6EC61B082954"
+			]
 			id: "2A2466DB69F16358"
 			subtitle: "This is expensive, for now, but you only need it for the circuit assembler before mv circuits become cheaper."
 			tasks: [{
@@ -165,10 +169,13 @@
 			}]
 			title: "First tier 2 circuit"
 			x: -5.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["73A52CAC4431A964"]
+			dependencies: [
+				"73A52CAC4431A964"
+				"3B3E487D4F52B56E"
+			]
 			id: "13C714CDD596A253"
 			tasks: [{
 				id: "6EC368AEA676C45E"
@@ -177,7 +184,7 @@
 			}]
 			title: "The Second Tier 1 Circuit"
 			x: -4.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["13C714CDD596A253"]
@@ -190,7 +197,7 @@
 			}]
 			title: "The Second Tier 2 Circuit"
 			x: -4.0d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["104DC0EEBEB141B8"]
@@ -201,7 +208,86 @@
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"282383215617BCF8"
+				"0E73900B7BC74CCF"
+			]
+			id: "1899E6C86E351D49"
+			tasks: [{
+				id: "25877158003D649B"
+				item: "gtceu:diode"
+				type: "item"
+			}]
 			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2769D04D1EC38C7D"]
+			id: "0E73900B7BC74CCF"
+			tasks: [{
+				id: "4C9EFCEB8ABD4CA3"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["666F57295207056F"]
+			id: "2769D04D1EC38C7D"
+			tasks: [{
+				id: "049D3DA78EEFB215"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D73AC3D880ACA76"]
+			id: "7FFA6EC61B082954"
+			tasks: [{
+				id: "248629DF359D93FD"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["666F57295207056F"]
+			id: "1D73AC3D880ACA76"
+			tasks: [{
+				id: "5F7A170B4136A59C"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7FB6DE440B227E47"]
+			id: "3B3E487D4F52B56E"
+			tasks: [{
+				id: "07514C31A66496C7"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "7FB6DE440B227E47"
+			tasks: [{
+				id: "52CA11FA30185858"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: -2.0d
 			y: 1.0d
 		}
 	]
