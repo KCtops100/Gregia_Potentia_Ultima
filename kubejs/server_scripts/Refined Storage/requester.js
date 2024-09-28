@@ -11,7 +11,7 @@ ServerEvents.recipes(event=> {
             A: 'gtceu:aluminium_plate',
             B: 'gtceu:mv_machine_hull',
             C: 'refinedstorage:advanced_processor',
-            D: 'refinedstorage:crafting_upgrade',
+            D: '#gtceu:circuits/mv',
             E: 'refinedstorage:detector'
         }
     )
