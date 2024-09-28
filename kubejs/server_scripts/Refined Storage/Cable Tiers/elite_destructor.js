@@ -1,13 +1,13 @@
 ServerEvents.recipes(event=> {
-    event.remove({ output: 'cabletiers:ultra_destructor'})
-    event.recipes.gtceu.assembler('cabletiers:ultra_destructor1')
+    event.remove({ output: 'Cable Tiers:elite_destructor'})
+    event.recipes.gtceu.assembler('Cable Tiers:elite_destructor1')
         .itemInputs(
-            '#gtceu:circuits/ev',
+            '#gtceu:circuits/hv',
             'refinedstorage:destruction_core',
             'minecraft:dispenser'
         )
         .itemOutputs(
-            'cabletiers:ultra_destructor'
+            'Cable Tiers:elite_destructor'
         )
         .duration(20 * 5)
         .EUt(32)

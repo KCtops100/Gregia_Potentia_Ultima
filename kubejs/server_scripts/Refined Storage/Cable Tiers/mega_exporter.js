@@ -1,16 +1,16 @@
 ServerEvents.recipes(event=> {
-    event.remove({ output: 'cabletiers:elite_exporter' })
-    event.recipes.gtceu.assembler('cabletiers:elite_exporter1')
+    event.remove({ output: 'Cable Tiers:mega_exporter' })
+    event.recipes.gtceu.assembler('Cable Tiers:mega_exporter1')
         .itemInputs(
             'refinedstorage:cable',
-            '#gtceu:circuits/hv',
+            '#gtceu:circuits/iv',
             'refinedstorage:construction_core'
         )
         .inputFluids(
             Fluid.of('gtceu:glass', 1000)
         )
         .itemOutputs(
-            'cabletiers:elite_exporter'
+            'Cable Tiers:mega_exporter'
         )
         .duration(20 * 5)
         .EUt(32)
