@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'Cable Tiers:mega_disk_manipulator' })
-    event.recipes.gtceu.assembler('Cable Tiers:mega_disk_manipulator')
+    event.remove({ output: 'cabletiers:mega_disk_manipulator' })
+    event.recipes.gtceu.assembler('cabletiers:mega_disk_manipulator')
         .itemInputs(
             'refinedstorage:construction_core',
             'refinedstorage:destruction_core',
@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
             '#gtceu:circuits/iv'
         )
         .itemOutputs(
-            'Cable Tiers:mega_disk_manipulator'
+            'cabletiers:mega_disk_manipulator'
         )
         .duration(20)
         .EUt(32)

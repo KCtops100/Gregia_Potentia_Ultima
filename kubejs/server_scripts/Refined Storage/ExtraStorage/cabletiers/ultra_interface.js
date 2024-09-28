@@ -1,7 +1,7 @@
 ServerEvents.recipes(event=> {
-    event.remove({ output: 'Cable Tiers:ultra_interface' })
+    event.remove({ output: 'cabletiers:ultra_interface' })
     event.shaped(
-        Item.of('Cable Tiers:ultra_interface', 1),
+        Item.of('cabletiers:ultra_interface', 1),
         [
             'ABA',
             'ACA',
