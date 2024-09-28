@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'extrastorage:gold_crafter' })
     event.recipes.gtceu.assembler('extrastorage:gold_crafter1')
         .itemInputs(
-            '2x refinedstorage:refined_neural_processor',
+            '2x refinedstorage:neural_processor',
             '5x refinedstorage:crafter',
             'gtceu:ev_machine_hull',
             '#gtceu:circuits/ev',
@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
         .EUt(32)
     event.recipes.gtceu.assembler('extrastorage:gold_crafter2')
         .itemInputs(
-            '2x refinedstorage:refined_neural_processor',
+            '2x refinedstorage:neural_processor',
             '5x refinedstorage:crafter',
             'gtceu:ev_machine_hull',
             '#gtceu:circuits/ev',
