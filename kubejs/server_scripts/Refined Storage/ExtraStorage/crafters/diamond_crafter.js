@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'extrastorage:diamond_crafter' })
     event.recipes.gtceu.assembler('extrastorage:diamond_crafter1')
         .itemInputs(
-            '2x refinedstorage:refined_neural_processor',
+            '2x refinedstorage:neural_processor',
             '7x refinedstorage:crafter',
             'gtceu:iv_machine_hull',
             '#gtceu:circuits/iv',
@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
         .EUt(32)
     event.recipes.gtceu.assembler('extrastorage:diamond_crafter2')
         .itemInputs(
-            '2x refinedstorage:refined_neural_processor',
+            '2x refinedstorage:neural_processor',
             '7x refinedstorage:crafter',
             'gtceu:iv_machine_hull',
             '#gtceu:circuits/iv',
