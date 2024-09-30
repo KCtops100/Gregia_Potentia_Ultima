@@ -2,8 +2,47 @@ ServerEvents.recipes(event => {
     const recipes = [
         /**
          * Blaze
-         * blaze rod -
+         * blaze rod - MV
          */
+        ['blaze_rod_from_blaze', 'kubejs:blaze_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:blaze_rod'], 200, 128, 0],
+        
+        /**
+         * Creeper
+         * gunpowder - LV
+         * head - MV
+         * uranium ingot - EV
+         */
+        ['gunpowder_from_creeper', 'kubejs:creeper_cognitive_matrix', ['kubejs:terra_matter', '8x mincraft:gunpowder'], 80, 32, 0],
+        ['head_from_creeper', 'kubejs:creeper_cognitive_matrix', ['kubejs:terra_matter', 'minecraft:creeper_head'], 100, 128, 1],
+        ['uranium_ingot_from_creeper', 'kubejs:creeper_cognitive_matrix', ['kubejs:terra_matter', 'gregtech:uranium_ingot'], 60, 1028, 2],
+
+        /**
+         * Magma Cube
+         * magma cream - MV
+         */
+        ['magma_cream_from_magma_cube', 'kubejs:magma_cream_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:magma_cream'], 200, 128, 0],
+
+        /**
+         * Skeleton
+         * bones - LV
+         * head - MV
+         * arrow - LV
+         * tin ingot - HV
+         */
+        ['bones_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '8x minecraft:bone'], 40, 32, 0],
+        ['head_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', 'minecraft:skeleton_head'], 100, 128, 1],
+        ['arrow_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '8x minecraft:arrow'], 40, 32, 2],
+        ['tin_ingot_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '4x gregtech:tin_ingot'], 100, 512, 3],
+
+        /**
+         * Wither Skeleton
+         * coal - MV
+         * lead ingot - HV
+         * head - MV
+         */
+        ['coal_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:coal'], 40, 128, 0],
+        ['lead_ingot_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', '8x gregtech:lead_ingot'], 100, 512, 1],
+        ['head_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', 'minecraft:wither_skeleton_head'], 100, 128, 2],
 
         /**
          * Zombie
