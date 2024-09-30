@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
         .itemInputs(
             '3x gtceu:steel_plate',
             '3x gtceu:nether_quartz_plate',
-            'refinedstorage:refined_advanced_processor',
+            'refinedstorage:advanced_processor',
             '2x refinedstorage:network_card'
         )
         .inputFluids(
