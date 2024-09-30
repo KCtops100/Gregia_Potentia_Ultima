@@ -1,0 +1,19 @@
+LV
+chicken
+cow
+pig
+sheep
+-> rotten flesh
+MV
+zombie
+skeleton
+creeper
+spider
+HV
+enderman
+witch
+blaze
+wither skeleton
+EV
+wither
+ender dragon
