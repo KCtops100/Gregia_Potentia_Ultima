@@ -13,4 +13,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('neural_network_fabricator', 'simple', GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV, GTValues.UEV, GTValues.UIV)
         .langValue("Neural Network Fabricator")
         .recipeType('loot_fabrication', true, true)
+        .workableTieredHullRenderer('gtceu:block/machines/replicator')
 })
