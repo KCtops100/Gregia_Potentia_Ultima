@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
          * Magma Cube
          * magma cream - MV
          */
-        ['magma_cream_from_magma_cube', 'kubejs:magma_cream_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:magma_cream'], 200, 128, 0],
+        ['magma_cream_from_magma_cube', 'kubejs:magma_cube_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:magma_cream'], 200, 128, 0],
         
         /**
          * Mooshroom
