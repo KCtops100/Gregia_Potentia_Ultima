@@ -12,5 +12,6 @@ StartupEvents.registry('item', e => {
     });
     e.create('neuromold').displayName('Neuro Mold');
     e.create('terra_matter').displayName('Terra Matter');
-    e.create('inferno_matter').displayName('Void Matter');
+    e.create('inferno_matter').displayName('Inferno Matter');
+    e.create('void_matter').displayName('Void Matter');
 });
