@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
          */
         ['gunpowder_from_creeper', 'kubejs:creeper_cognitive_matrix', ['kubejs:terra_matter', '8x mincraft:gunpowder'], 80, 32, 0],
         ['head_from_creeper', 'kubejs:creeper_cognitive_matrix', ['kubejs:terra_matter', 'minecraft:creeper_head'], 100, 128, 1],
-        ['uranium_ingot_from_creeper', 'kubejs:creeper_cognitive_matrix', ['kubejs:terra_matter', 'gregtech:uranium_ingot'], 60, 1028, 2],
+        ['uranium_ingot_from_creeper', 'kubejs:creeper_cognitive_matrix', ['kubejs:terra_matter', 'gtceu:uranium_ingot'], 60, 1028, 2],
 
         /**
          * Drowned
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
         ['bones_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '8x minecraft:bone'], 40, 32, 0],
         ['head_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', 'minecraft:skeleton_head'], 100, 128, 1],
         ['arrow_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '8x minecraft:arrow'], 40, 32, 2],
-        ['tin_ingot_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '4x gregtech:tin_ingot'], 100, 512, 3],
+        ['tin_ingot_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '4x gtceu:tin_ingot'], 100, 512, 3],
 
         /**
          * Spider
@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
          * head - MV
          */
         ['coal_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:coal'], 40, 128, 0],
-        ['lead_ingot_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', '8x gregtech:lead_ingot'], 100, 512, 1],
+        ['lead_ingot_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', '8x gtceu:lead_ingot'], 100, 512, 1],
         ['head_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', 'minecraft:wither_skeleton_skull'], 100, 128, 2],
 
         /**
