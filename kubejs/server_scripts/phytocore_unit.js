@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
             .notConsumable(input)
             .itemOutputs(output)
             .inputFluids('minecraft:water', 1000)
-            .chancedOutput(input, 0.5, 10)
+            .chancedOutput(input, 5000, 2500)
             .duration(duration)
             .EUt(eut)
     })
