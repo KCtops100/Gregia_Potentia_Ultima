@@ -1,11 +1,22 @@
 ServerEvents.recipes(event => {
     const recipes = [
         /**
+         * Bee
+         */
+
+        /**
          * Blaze
          * blaze rod - MV
          */
         ['blaze_rod_from_blaze', 'kubejs:blaze_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:blaze_rod'], 200, 128, 0],
-        
+        /**
+         * Chicken 
+         */
+
+         /**
+         * Cow 
+         */
+
         /**
          * Creeper
          * gunpowder - LV
@@ -17,10 +28,64 @@ ServerEvents.recipes(event => {
         ['uranium_ingot_from_creeper', 'kubejs:creeper_cognitive_matrix', ['kubejs:terra_matter', 'gregtech:uranium_ingot'], 60, 1028, 2],
 
         /**
+         * Drowned
+         * copper ingot - HV
+         */
+        ['copper_ingot_from_drowned', 'kubejs:drowned_cognitive_matrix', ['kubejs:terra_matter', '4x minecraft:copper_ingot'], 100, 512, 0],
+        
+        /**
+         * Elder Guardian 
+         */
+
+        /**
+         * Ender Dragon 
+         */
+        
+        /**
+         * Enderman
+         */
+
+        /**
+         * Evoker
+         */
+
+       /**
+         * Ghast
+         */
+
+       /**
+         * Guardian
+         */
+
+       /**
+         * Iron Golem
+         */
+
+        /**
          * Magma Cube
          * magma cream - MV
          */
         ['magma_cream_from_magma_cube', 'kubejs:magma_cream_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:magma_cream'], 200, 128, 0],
+        
+        /**
+         * Mooshroom
+         */
+
+        /**
+         * Pig
+         */
+
+        /**
+         * Piglin
+         */
+
+        /**
+         * Rabbit
+         */
+
+        /**
+         * Sheep
+         */
 
         /**
          * Skeleton
@@ -33,6 +98,14 @@ ServerEvents.recipes(event => {
         ['head_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', 'minecraft:skeleton_head'], 100, 128, 1],
         ['arrow_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '8x minecraft:arrow'], 40, 32, 2],
         ['tin_ingot_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '4x gregtech:tin_ingot'], 100, 512, 3],
+
+        /**
+         * Spider
+         */
+
+        /**
+         * Squid
+         */
 
         /**
          * Wither Skeleton
