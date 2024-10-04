@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
          * tin ingot - HV
          */
         ['bones_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '8x minecraft:bone'], 40, 32, 0],
-        ['head_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', 'minecraft:skeleton_head'], 100, 128, 1],
+        ['head_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', 'minecraft:skeleton_skull'], 100, 128, 1],
         ['arrow_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '8x minecraft:arrow'], 40, 32, 2],
         ['tin_ingot_from_skeleton', 'kubejs:skeleton_cognitive_matrix', ['kubejs:terra_matter', '4x gtceu:tin_ingot'], 100, 512, 3],
 
