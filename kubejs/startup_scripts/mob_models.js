@@ -1,11 +1,28 @@
 // https://wiki.latvian.dev/books/kubejs/page/custom-items
 StartupEvents.registry('item', e => {
     const mobs = [
-        'zombie',
-        'skeleton',
+        'blaze',
+        'chicken',
+        'cow',
         'creeper',
+        'drowned',
+        'elder_guardian',
+        'ender_dragon',
         'enderman',
+        'evoker',
+        'ghast',
+        'guardian',
+        'iron_golem',
+        'magma_cube',
+        'mooshroom',
+        'piglin',
+        'rabbit',
+        'sheep',
+        'skeleton',
         'spider',
+        'squid',
+        'wither_skeleton',
+        'zombie'
     ];
     mobs.forEach(mob => {
         e.create(`${mob}_cognitive_matrix`);
