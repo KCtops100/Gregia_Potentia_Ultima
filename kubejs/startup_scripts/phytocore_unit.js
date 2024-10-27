@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('plant_growing')
         .category('reconstruction')
         .setEUIO('in')
-        .setMaxIOSize(3, 2, 1, 0)   // 3 input slots, 1 output slot
+        .setMaxIOSize(2, 2, 1, 0)   // 3 input slots, 1 output slot
         .setSlotOverlay(false, false, GuiTextures.COMPRESSOR_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)

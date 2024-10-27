@@ -33,12 +33,9 @@ ServerEvents.recipes(event => {
         ['minecraft:pitcher_pod', 'minecraft:pitcher_plant', 20 * 5, 32],
         ['minecraft:chorus_flower', 'minecraft:chorus_fruit', 20 * 5, 32],
         ['minecraft:torchflower_seeds', 'minecraft:torchflower', 20 * 5, 32],
-
-
-        /**
-         * ['minecraft:chorus_flower', 'minecraft:chorus_fruit']
-         */
     ]
+    // https://gregtechceu.github.io/gtceu-modern-docs/Modpacks/Other-Topics/Adding-and-Removing-Recipes/
+    // https://github.com/GregTechCEu/GregTech-Modern/blob/1.20.1/src/main/java/com/gregtechceu/gtceu/integration/kjs/recipe/GTRecipeSchema.java 
     recipes.forEach(([input, output, duration, eut]) => {
         event.recipes.gtceu.plant_growing(input)
             .notConsumable(input)
@@ -47,5 +44,14 @@ ServerEvents.recipes(event => {
             .chancedOutput(input, 5000, 2500)
             .duration(duration)
             .EUt(eut)
+
+        event.recipes.gtceu.plant_growing(input + "2")
+            .notConsumable(input)
+            .itemOutputs(output)
+            .inputFluids('minecraft:water', 1000)
+            .chancedOutput(input, 5000, 2500)
+            .duration(Math.floor(duration / 2))
+            .EUt(Math.floor(eut * 1.5))
+            .chancedInput('gtceu:fertilizer', 5000, 2500);
     })
 })
