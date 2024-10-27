@@ -1,9 +1,9 @@
 ServerEvents.recipes(event => {
-
-
     const recipes = [
+
         /**
          * Bee
+         *
          */
 
         /**
@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
          * blaze rod - MV
          */
         ['blaze_rod_from_blaze', 'kubejs:blaze_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:blaze_rod'], 200, 128, 0],
+
         /**
          * Chicken 
          */
