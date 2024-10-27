@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fun_with_fire"
+	group: "40F3E6773A7DE230"
+	icon: "minecraft:charcoal"
+	id: "6BC7377DD3E45D8D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "65BAF8438EAD4D33"
+			tasks: [{
+				id: "002243CEF83EADE5"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "126953FFAF23AFB3"
+			tasks: [{
+				id: "2B41CB9A76CFE2C2"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "5BF0F889B6F5E298"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:charcoal_byproducts"
+				id: "592C83CD723DC566"
+				type: "fluid"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	title: "Fun With Fire!"
+}

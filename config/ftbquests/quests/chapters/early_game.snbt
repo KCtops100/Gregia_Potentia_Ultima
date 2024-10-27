@@ -101,8 +101,8 @@
 				}
 			]
 			title: "A Better Blast Furnace"
-			x: -1.5d
-			y: -3.0d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["104DC0EEBEB141B8"]
@@ -197,7 +197,7 @@
 			}]
 			title: "The Second Tier 2 Circuit"
 			x: -4.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["104DC0EEBEB141B8"]
@@ -248,26 +248,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1D73AC3D880ACA76"]
+			dependencies: ["5D448D401CD6B478"]
 			id: "7FFA6EC61B082954"
 			tasks: [{
 				id: "248629DF359D93FD"
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["666F57295207056F"]
-			id: "1D73AC3D880ACA76"
-			tasks: [{
-				id: "5F7A170B4136A59C"
-				item: "gtceu:lv_chemical_reactor"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 2.0d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7FB6DE440B227E47"]
@@ -289,6 +278,42 @@
 			}]
 			x: -2.0d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"282383215617BCF8"
+				"5707C1D5C52B193A"
+			]
+			id: "5D448D401CD6B478"
+			tasks: [{
+				id: "07076C1376C2C936"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30C61D3409EED807"]
+			id: "5707C1D5C52B193A"
+			tasks: [{
+				id: "2164F853FF9DF9A2"
+				item: "gtceu:glue_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "30C61D3409EED807"
+			tasks: [{
+				id: "307BD6A5E4132F47"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
 		}
 	]
 	title: "early game"

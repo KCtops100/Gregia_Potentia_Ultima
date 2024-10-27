@@ -564,6 +564,38 @@
 			x: -3.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["2475A724188A23D6"]
+			id: "2173563E02EA8418"
+			tasks: [{
+				id: "5EF4BEC8D7C21451"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47EC4DDFE478DF2B"]
+			id: "2475A724188A23D6"
+			tasks: [{
+				id: "73C724D632F3B7DD"
+				item: "gtceu:coke_oven_brick"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "47EC4DDFE478DF2B"
+			tasks: [{
+				id: "747BAFF01BAADC1B"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
 	]
 	title: "Genesis"
 }
