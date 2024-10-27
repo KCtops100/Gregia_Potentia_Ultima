@@ -5,7 +5,7 @@
 	group: "40F3E6773A7DE230"
 	icon: "gtceu:oil_bucket"
 	id: "11754C16B626F2F0"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

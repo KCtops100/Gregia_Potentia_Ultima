@@ -198,54 +198,6 @@
 		}
 		{
 			dependencies: [
-				"74D03D0F1889D88C"
-				"3FB91D34CDFA8CFC"
-			]
-			id: "3FAAE8C02E84BC27"
-			subtitle: "Main component of the Primitive blas furnace. Requires a combination of clay dust and brick dust"
-			tasks: [{
-				id: "5A4CE3ED346A17CE"
-				item: "gtceu:firebrick"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3FAAE8C02E84BC27"]
-			icon: "gtceu:primitive_blast_furnace"
-			id: "050BB750EDC25195"
-			subtitle: "With this you can steel yourself for what's ahead. This is going to be your main source of steel for a while"
-			tasks: [
-				{
-					id: "0C94C1DFE24B75AB"
-					item: "gtceu:primitive_blast_furnace"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "01A697DD29367A6E"
-					item: { Count: 32, id: "gtceu:firebricks" }
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["050BB750EDC25195"]
-			id: "30A06638384776CD"
-			subtitle: "The Basis for LV!"
-			tasks: [{
-				id: "02D84DDC15D71A03"
-				item: "gtceu:steel_ingot"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
 				"58E83ED83E7D6AE7"
 				"4AA9FB5FDAD040F1"
 			]
@@ -418,7 +370,6 @@
 		{
 			dependencies: [
 				"499172A387E5D177"
-				"30A06638384776CD"
 				"0D502A7FB377E34A"
 				"445538B30C4A639B"
 			]
@@ -455,7 +406,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4FBBB14BD27997A6"]
+			dependencies: [
+				"4FBBB14BD27997A6"
+				"567A2F4C34FFD146"
+			]
 			id: "58296351FA9E24AD"
 			subtitle: "Your first circuit at last! Now you can begin looking into electricity and LV machines."
 			tasks: [{
@@ -470,7 +424,6 @@
 		{
 			dependencies: [
 				"499172A387E5D177"
-				"30A06638384776CD"
 				"445538B30C4A639B"
 			]
 			icon: "gtceu:lv_electric_motor"
@@ -565,36 +518,43 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2475A724188A23D6"]
-			id: "2173563E02EA8418"
+			id: "06EFD011A05136B0"
 			tasks: [{
-				id: "5EF4BEC8D7C21451"
-				item: "gtceu:coke_oven"
+				id: "6E232D1756079787"
+				item: {
+					Count: 1
+					id: "gtceu:flint_knife"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 1.0f
+							AttackSpeed: 3.0f
+							Damage: 0
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["135640C05AFA154C"]
+			id: "4CE8D772F0C51FEE"
+			tasks: [{
+				id: "350A9AFF88F9A057"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: -1.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["47EC4DDFE478DF2B"]
-			id: "2475A724188A23D6"
-			tasks: [{
-				id: "73C724D632F3B7DD"
-				item: "gtceu:coke_oven_brick"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 1.0d
-		}
-		{
-			id: "47EC4DDFE478DF2B"
-			tasks: [{
-				id: "747BAFF01BAADC1B"
-				item: "gtceu:brick_wooden_form"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 0.0d
 		}
 	]
 	title: "Genesis"
