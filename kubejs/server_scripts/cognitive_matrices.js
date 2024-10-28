@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-<<<<<<< HEAD
 
     event.recipes.gtceu.circuit_assembler('kubejs:bee_cognitive_matrix')
         .itemInputs(
@@ -233,8 +232,6 @@ event.recipes.gtceu.circuit_assembler('kubejs:wither_skelekton_cognitive_matrix'
             'kubejs:zombie_cognitive_matrix'
         )
 
-=======
->>>>>>> refs/remotes/origin/master
     const recipes = [
 
         /**
