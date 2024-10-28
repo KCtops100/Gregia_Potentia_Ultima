@@ -15,9 +15,3 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeType('plant_growing', true, true)
         .workableTieredHullRenderer('gtceu:block/machines/replicator')
 })
-
-StartupEvents.registry('item', e => {
-    e.create('nutrient_rich_soil_conditioner').displayName('Nutrient-Rich Soil Conditioner');
-    e.create('enhanced_nutrient_rich_soil_conditioner').displayName('Enhanced Nutrient-Rich Soil Conditioner');
-    e.create('superior_nutrient_rich_soil_conditioner').displayName('Superior Nutrient-Rich Soil Conditioner');
-});
