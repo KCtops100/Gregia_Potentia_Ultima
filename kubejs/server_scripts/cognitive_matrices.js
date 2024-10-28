@@ -1,4 +1,240 @@
 ServerEvents.recipes(event => {
+<<<<<<< HEAD
+
+    event.recipes.gtceu.circuit_assembler('kubejs:bee_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:honeycomb'
+        )
+        .itemOutputs(
+            'kubejs:bee_cognitive_matrix'
+        )
+
+
+    event.recipes.gtceu.circuit_assembler('kubejs:blaze_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:blaze_rod'
+        )
+        .itemOutputs(
+            'kubejs:blaze_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:chicken_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/lv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:feather'
+        )
+        .itemOutputs(
+            'kubejs:chicken_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:cow_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/lv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:leather'
+        )
+        .itemOutputs(
+            'kubejs:cow_cognitive_matrix'
+        )
+
+
+    event.recipes.gtceu.circuit_assembler('kubejs:creeper_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/lv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:gunpowder'
+        )
+        .itemOutputs(
+            'kubejs:creeper_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:drowned_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:rotten_flesh',
+            'minecraft:water_bottle'
+        )
+        .itemOutputs(
+            'kubejs:drowned_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:elder_guardian_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/hv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:prismarine_crystals'
+        )
+        .itemOutputs(
+            'kubejs:elder_guardian_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:ender_dragon_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/ev',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:dragon_egg'
+        )
+        .itemOutputs(
+            'kubejs:ender_dragon_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:enderman_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:ender_pearl'
+        )
+        .itemOutputs(
+            'kubejs:enderman_cognitive_matrix'
+        )
+
+
+
+    event.recipes.gtceu.circuit_assembler('kubejs:ghast_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:ghast_tear'
+        )
+        .itemOutputs(
+            'kubejs:ghast_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:guardian_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:prismarine_shard'
+        )
+        .itemOutputs(
+            'kubejs:guardian_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:iron_golem_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/hv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:poppy'
+        )
+        .itemOutputs(
+            'kubejs:iron_golem_cognitive_matrix'
+        )
+
+
+
+    event.recipes.gtceu.circuit_assembler('kubejs:magma_cube_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:magma_cream'
+        )
+        .itemOutputs(
+            'kubejs:magma_cube_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:pig_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/lv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:raw_pork'
+        )
+        .itemOutputs(
+            'kubejs:blaze_cognitive_matrix'
+        )
+
+
+    event.recipes.gtceu.circuit_assembler('kubejs:skeleton_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/lv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:bone'
+        )
+        .itemOutputs(
+            'kubejs:skeleton_cognitive_matrix'
+        )
+
+    event.recipes.gtceu.circuit_assembler('kubejs:spider_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/lv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:spider_eye'
+        )
+        .itemOutputs(
+            'kubejs:spider_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:sheep_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:raw_mutton'
+        )
+        .itemOutputs(
+            'kubejs:sheep_cognitive_matrix'
+        )
+
+event.recipes.gtceu.circuit_assembler('kubejs:squid_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:ink_sac'
+        )
+        .itemOutputs(
+            'kubejs:squid_cognitive_matrix'
+        )
+
+
+
+event.recipes.gtceu.circuit_assembler('kubejs:wither_skelekton_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/mv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:wither_skeleton_skull'
+        )
+        .itemOutputs(
+            'kubejs:wither_skeleton_cognitive_matrix'
+        )
+
+
+
+    event.recipes.gtceu.circuit_assembler('kubejs:zombie_cognitive_matrix')
+        .itemInputs(
+            '#gtceu:circuits/lv',
+            'minecraft:iron_sword',
+            'gtceu:steel_plate',
+            'minecraft:rotten_flesh'
+        )
+        .itemOutputs(
+            'kubejs:zombie_cognitive_matrix'
+        )
+
+=======
+>>>>>>> refs/remotes/origin/master
     const recipes = [
 
         /**
