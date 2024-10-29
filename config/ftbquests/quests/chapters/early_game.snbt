@@ -209,7 +209,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -233,8 +233,8 @@
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.0d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["666F57295207056F"]
@@ -245,7 +245,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5D448D401CD6B478"]
@@ -314,6 +314,126 @@
 			}]
 			x: -7.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["2769D04D1EC38C7D"]
+			icon: "gtceu:battery_alloy_plate"
+			id: "1942E38FA7CAA0C2"
+			tasks: [
+				{
+					id: "7ED1A67F588BFCCC"
+					item: "gtceu:battery_alloy_dust"
+					type: "item"
+				}
+				{
+					id: "15DF57C472F62DE5"
+					item: "gtceu:battery_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "4222CFACCFFB3A3E"
+					item: "gtceu:battery_alloy_plate"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1942E38FA7CAA0C2"]
+			id: "0490DB8BE5D3DC15"
+			tasks: [{
+				id: "65F0115609DFE932"
+				item: "gtceu:lv_battery_hull"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0490DB8BE5D3DC15"
+				"6E92FDD44B242292"
+				"689F7831C66433F4"
+				"3FC1F223FC1B865F"
+			]
+			id: "152DE31004F551B5"
+			tasks: [{
+				id: "6375AE74D42C06F2"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A1A1E533AF794C1"]
+			id: "6E92FDD44B242292"
+			tasks: [{
+				id: "1B283ABAE4ACA987"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A1A1E533AF794C1"]
+			id: "689F7831C66433F4"
+			tasks: [{
+				id: "218C5417FA93D8F1"
+				item: "gtceu:lv_sensor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74D03D0F1889D88C"]
+			id: "1A1A1E533AF794C1"
+			tasks: [{
+				id: "0841DE39F0B42DC7"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["363AD8F69743C275"]
+			id: "3FC1F223FC1B865F"
+			tasks: [{
+				id: "7A4B77343CD50D14"
+				item: "gtceu:glass_plate"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E2D4CB7339185A9"]
+			id: "780BEE33E07732FA"
+			tasks: [{
+				id: "01B35C95303141A2"
+				item: "gtceu:magnetic_steel_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"780BEE33E07732FA"
+				"0490DB8BE5D3DC15"
+			]
+			id: "772CA69170AC7CDC"
+			tasks: [{
+				id: "164BFF4201AD779D"
+				item: "gtceu:lv_item_magnet"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
 		}
 	]
 	title: "early game"

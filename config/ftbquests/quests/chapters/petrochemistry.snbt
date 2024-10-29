@@ -183,6 +183,122 @@
 			x: 1.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["77975336C777F8F4"]
+			id: "41CD9DF295D68A5D"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:polyethylene"
+				icon: "gtceu:polyethylene_bucket"
+				id: "7E9DD645AAA0E9DB"
+				type: "fluid"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["41CD9DF295D68A5D"]
+			id: "6FEBD63932C51503"
+			tasks: [{
+				id: "6FEE3AA0084A7844"
+				item: "gtceu:polyethylene_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6FEBD63932C51503"
+				"4FF320B740A3A40A"
+			]
+			dependency_requirement: "one_completed"
+			id: "5B68A727EAAE4FA6"
+			tasks: [{
+				id: "7F7985EB7DBCEBC0"
+				item: "gtceu:polyethylene_foil"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41CD9DF295D68A5D"]
+			id: "4FF320B740A3A40A"
+			tasks: [{
+				id: "59B3CA5F2550A69D"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			id: "77975336C777F8F4"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:ethylene"
+				icon: "gtceu:ethylene_bucket"
+				id: "15429E63A1DCC1EE"
+				type: "fluid"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7979C8FA8647E043"]
+			id: "5B7459B29D854AD2"
+			tasks: [{
+				id: "056FEF09FDD4EC3A"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5D79C66275B0BBBA"]
+			id: "7979C8FA8647E043"
+			tasks: [{
+				id: "6FB18100ED848025"
+				item: "gtceu:iridium_chloride_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["70FACB24857450F5"]
+			id: "5D79C66275B0BBBA"
+			tasks: [{
+				id: "7063569526CACC5C"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1D200E820BE725AD"]
+			id: "70FACB24857450F5"
+			tasks: [{
+				id: "447EFCA7EC5B8A64"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			id: "1D200E820BE725AD"
+			tasks: [{
+				id: "73F9E54EBE8F71C3"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
 	]
 	title: "Petrochemistry"
 }
