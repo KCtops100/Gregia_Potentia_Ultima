@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "refined_storage"
-	group: "018563AA18E6EC52"
+	group: "6D93D9381BB44238"
+	icon: "gtceu:exquisite_nether_quartz_gem"
 	id: "7C6BA6E4B0E4BEF8"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["73A52CAC4431A964"]
 			id: "2F0EBADC63629E2D"
 			rewards: [{
 				id: "7143EFF96152A06D"
@@ -129,49 +129,53 @@
 			dependencies: ["14C41543AE82F753"]
 			id: "7F312AED23A3FA59"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "0BFCC6FC471ACF49"
 				item: "extrastorage:iron_crafter"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.0d
+			x: 9.25d
+			y: 1.25d
 		}
 		{
 			dependencies: ["14C41543AE82F753"]
 			id: "65D2D4C9F908F3C0"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "30D437A8F2C1982B"
 				item: "extrastorage:gold_crafter"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.0d
+			x: 9.75d
+			y: 1.25d
 		}
 		{
 			dependencies: ["14C41543AE82F753"]
 			id: "0C0306C773B140D5"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "2334F2F4B7837287"
 				item: "extrastorage:diamond_crafter"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 2.0d
+			x: 10.25d
+			y: 1.25d
 		}
 		{
 			dependencies: ["14C41543AE82F753"]
 			id: "17678444793C662B"
 			optional: true
+			size: 0.5d
 			tasks: [{
 				id: "00CFA9EB03673F9C"
 				item: "extrastorage:netherite_crafter"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 2.0d
+			x: 10.75d
+			y: 1.25d
 		}
 		{
 			dependencies: ["14C41543AE82F753"]

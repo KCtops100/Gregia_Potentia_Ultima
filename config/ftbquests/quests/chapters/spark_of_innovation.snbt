@@ -1,0 +1,491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spark_of_innovation"
+	group: "78071135F9818164"
+	icon: "gtceu:steel_gear"
+	id: "488C756FB0557BCC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"499172A387E5D177"
+				"445538B30C4A639B"
+			]
+			icon: "gtceu:lv_electric_motor"
+			id: "3FAD3D8E26675C81"
+			subtitle: "The main parts, other than your circuit, which you need to make for a steam turbine. You can magnetize iron by putting it in a crafting table with four redstone dust."
+			tasks: [
+				{
+					count: 2L
+					id: "30186CB768749FAC"
+					item: { Count: 2, id: "gtceu:lv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "48D63E4821C72E3E"
+					item: { Count: 2, id: "gtceu:tin_rotor" }
+					type: "item"
+				}
+			]
+			title: "Revving up"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3FAD3D8E26675C81"
+				"58296351FA9E24AD"
+				"1475F0E7ADCDEAF7"
+			]
+			id: "2008657CAB0C1303"
+			subtitle: "Electricity at last! But first you'll need to make electric machines to replace your steam ones and make some new machines, like the wiremill, to do a lot less crafting."
+			tasks: [{
+				id: "52C53402950E3A6D"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "Go for a spin"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2008657CAB0C1303"]
+			description: [
+				"A Brief Description of Gregtech Power:"
+				""
+				"Each single-block power generator produces one amp of power at a particular voltage, and each single-block machine consumes one amp of power at a particular voltage. For now, that voltage is Low Voltage (LV). Each kind of wire has a size, a max voltage rating, and power loss. Power loss means that the longer your cable is, the more power is wasted in transporting that power through the wire. The higher the cable loss, on the tooltip, the more power will be lost. The size of a wire determines the maximum amperage that can go through the wire (1x = 1 amp, 2x = 2 amps, and so on). Do NOT overload the wire or it will catch on fire, and if that fire spreads to the machines, they can explode. Similarly, do NOT exceed the maximum voltage on a wire, or the results will be the same as exceeding the maximum amperage. "
+			]
+			icon: "gtceu:high_voltage_hazard_sign_block"
+			id: "666F57295207056F"
+			subtitle: "A brief summary."
+			tasks: [{
+				id: "6D974F1E6732E9AC"
+				title: "Gregtech Power"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B5357A3DDD2ED56"]
+			icon: "gtceu:lv_machine_hull"
+			id: "1475F0E7ADCDEAF7"
+			tasks: [
+				{
+					id: "5F5C9AEF696DB2FB"
+					item: "gtceu:lv_machine_casing"
+					type: "item"
+				}
+				{
+					id: "10785A5177BD1EC1"
+					item: "gtceu:lv_machine_hull"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1899E6C86E351D49"
+				"62EF81453EA35985"
+				"03432D325D08F141"
+			]
+			id: "2A2466DB69F16358"
+			size: 3.5d
+			subtitle: "This is expensive, for now, but you only need it for the circuit assembler before mv circuits become cheaper."
+			tasks: [{
+				id: "5FE04322027E68C9"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "First tier 2 circuit"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"282383215617BCF8"
+				"0E73900B7BC74CCF"
+			]
+			id: "1899E6C86E351D49"
+			tasks: [{
+				id: "25877158003D649B"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2769D04D1EC38C7D"]
+			id: "0E73900B7BC74CCF"
+			tasks: [{
+				id: "4C9EFCEB8ABD4CA3"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "2769D04D1EC38C7D"
+			tasks: [{
+				id: "049D3DA78EEFB215"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["666F57295207056F"]
+			id: "104DC0EEBEB141B8"
+			subtitle: "Making wire sucks, right? Well not anymore! This machine does it for you. You should begin to process as much as possible in machines."
+			tasks: [{
+				id: "602932BE73E080AE"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			title: "Wiremill"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"282383215617BCF8"
+				"736E39E1CFF1E0E3"
+			]
+			icon: "gtceu:phenolic_printed_circuit_board"
+			id: "62EF81453EA35985"
+			tasks: [
+				{
+					id: "420D438E2CF56754"
+					item: "gtceu:phenolic_circuit_board"
+					type: "item"
+				}
+				{
+					id: "4199519758216E15"
+					item: "gtceu:phenolic_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3146103A8276B095"
+				"0F545B0AF79100FC"
+			]
+			id: "282383215617BCF8"
+			subtitle: "This machine is necessary for making advanced items."
+			tasks: [{
+				id: "2EFBCF4AFC432EC4"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "0F545B0AF79100FC"
+			tasks: [{
+				id: "06F649AE883DDEE3"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EFE87646A3A978E"]
+			id: "3146103A8276B095"
+			tasks: [{
+				id: "0C603530C1FE8D00"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["198F9235D3061A31"]
+			id: "7EFE87646A3A978E"
+			tasks: [{
+				id: "297BA794E74130C4"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "198F9235D3061A31"
+			tasks: [{
+				id: "37AAE74D5954D4CA"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FDB77CAEF1B2D3D"]
+			id: "736E39E1CFF1E0E3"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:glue"
+				id: "29D06B099EA72CCB"
+				type: "fluid"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "5FDB77CAEF1B2D3D"
+			tasks: [{
+				id: "405BBD838F221D93"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "14C2F80723575693"
+			tasks: [{
+				id: "125C4491A035DD81"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "34B872F5BD2AF614"
+			tasks: [{
+				id: "1E13E7812AAC4A50"
+				item: "gtceu:lv_alloy_smelter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"34B872F5BD2AF614"
+				"2769D04D1EC38C7D"
+			]
+			dependency_requirement: "one_completed"
+			id: "1B541BD95B987FD3"
+			tasks: [{
+				id: "5A5D056438614968"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1B04D2A2FA236B65"
+				"198F9235D3061A31"
+			]
+			id: "493C4DC08B67D755"
+			tasks: [{
+				id: "747D4DD3AC1688B3"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FAD3D8E26675C81"]
+			id: "1B04D2A2FA236B65"
+			tasks: [{
+				id: "73A55FFE687F1087"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"34B872F5BD2AF614"
+				"2769D04D1EC38C7D"
+			]
+			dependency_requirement: "one_completed"
+			id: "7D24A1439F48FC6B"
+			tasks: [{
+				id: "2F39605AD576A3F0"
+				item: "gtceu:tin_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["198F9235D3061A31"]
+			id: "201744E822796650"
+			tasks: [{
+				id: "7FC12D7EE5A68DC9"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"34B872F5BD2AF614"
+				"2769D04D1EC38C7D"
+			]
+			dependency_requirement: "one_completed"
+			id: "4F259F2288EF01E9"
+			tasks: [{
+				id: "661E8802ECCC56E8"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F259F2288EF01E9"]
+			id: "39ADF2F429BEEBCB"
+			tasks: [{
+				id: "66B130BF9B138DBD"
+				item: "gtceu:heatproof_machine_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"39ADF2F429BEEBCB"
+				"7675990FCC654CF4"
+			]
+			id: "71D4517175C40F02"
+			tasks: [{
+				id: "79F3B5122947D2F1"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7D24A1439F48FC6B"
+				"1B541BD95B987FD3"
+				"201744E822796650"
+				"493C4DC08B67D755"
+			]
+			id: "7675990FCC654CF4"
+			tasks: [{
+				count: 16L
+				id: "00FB348B7A20EBF8"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["71D4517175C40F02"]
+			id: "4508FC26C8FF9312"
+			tasks: [{
+				id: "77765ED082F76490"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["71D4517175C40F02"]
+			icon: "gtceu:chromium_ingot"
+			id: "7902E74CC506134E"
+			tasks: [
+				{
+					id: "5B310E788C5C4521"
+					item: "gtceu:chromium_dust"
+					type: "item"
+				}
+				{
+					id: "6E324295A607759D"
+					item: "gtceu:chromium_ingot"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0F545B0AF79100FC"
+				"3146103A8276B095"
+				"4ECDDD1105D0E529"
+			]
+			id: "03432D325D08F141"
+			tasks: [{
+				id: "7B73DC032A40505E"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3DD33E15D60501E5"]
+			id: "4ECDDD1105D0E529"
+			tasks: [{
+				id: "0C15A1A0BE82D27C"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"34B872F5BD2AF614"
+				"2769D04D1EC38C7D"
+			]
+			dependency_requirement: "one_completed"
+			id: "3DD33E15D60501E5"
+			tasks: [{
+				id: "4C8CFEB0874EDA80"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["104DC0EEBEB141B8"]
+			id: "58491485CC04AC86"
+			tasks: [{
+				id: "487F88E459BE1FAE"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "Spark of Innovation"
+}
