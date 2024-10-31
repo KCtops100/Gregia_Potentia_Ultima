@@ -486,6 +486,52 @@
 			x: 2.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["14C2F80723575693"]
+			id: "616A41F6A769D473"
+			tasks: [{
+				id: "5DB0ABEB92C82547"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1DF40AB89C63437B"
+				"1B04D2A2FA236B65"
+			]
+			icon: "gtceu:lv_gas_collector"
+			id: "3EC40280BEEDD143"
+			tasks: [
+				{
+					id: "704ECE355BD4C1B5"
+					item: "gtceu:lv_gas_collector"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:air"
+					icon: "gtceu:air_bucket"
+					id: "5F1AEF88F268BDA5"
+					type: "fluid"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["201744E822796650"]
+			id: "1DF40AB89C63437B"
+			tasks: [{
+				id: "5456DB51DCC75B92"
+				item: "gtceu:fluid_filter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
 	]
 	title: "Spark of Innovation"
 }

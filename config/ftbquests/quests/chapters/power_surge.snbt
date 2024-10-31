@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4508FC26C8FF9312"]
 			icon: "gtceu:mv_machine_hull"
 			id: "6D6D7042220BC8E0"
 			tasks: [
@@ -394,6 +395,22 @@
 			}]
 			x: 5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4DEF582EBDC57856"
+				"6D6D7042220BC8E0"
+				"377882C9199042DD"
+				"2A2466DB69F16358"
+			]
+			id: "648A672A10D40DDB"
+			tasks: [{
+				id: "40353897EF9F25A7"
+				item: "gtceu:mv_extractor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 	title: "Power Surge"

@@ -94,8 +94,8 @@
 				type: "item"
 			}]
 			title: "Solar Boiler"
-			x: 1.0d
-			y: -2.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["363AD8F69743C275"]
@@ -122,7 +122,7 @@
 			}]
 			title: "forge hammer"
 			x: 3.0d
-			y: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
