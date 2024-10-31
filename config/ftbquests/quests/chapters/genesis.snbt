@@ -765,6 +765,20 @@
 			x: 3.0d
 			y: 4.0d
 		}
+		{
+			dependencies: [
+				"1815B6F18E3502B0"
+				"087B67D19167A2E5"
+			]
+			id: "644B42E6620EB785"
+			tasks: [{
+				id: "31B9FB5371212317"
+				item: "gtceu:glass_plate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
 	]
 	title: "Foundations of Industry"
 }

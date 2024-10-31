@@ -57,6 +57,7 @@
 			]
 			icon: "gtceu:high_voltage_hazard_sign_block"
 			id: "666F57295207056F"
+			size: 1.3d
 			subtitle: "A brief summary."
 			tasks: [{
 				id: "6D974F1E6732E9AC"
@@ -425,7 +426,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["104DC0EEBEB141B8"]
@@ -485,6 +486,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["0C6E976FFF235627"]
 			id: "347D449CDB23BBF7"
 			tasks: [{
 				id: "6D7284AA7C7716A6"
@@ -504,6 +506,119 @@
 			}]
 			x: 3.0d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"347D449CDB23BBF7"
+				"3D467C07CD5C98F0"
+			]
+			id: "4B72A4B3D055F13B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:lv_sodium_battery"
+					tag: {
+						Charge: 80000L
+					}
+				}
+				id: "279C7973E51BD8CC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/lv"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EFE87646A3A978E"]
+			id: "7E6786A419D6D1F1"
+			tasks: [{
+				id: "0B36D05CBD4E63A5"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7E6786A419D6D1F1"
+				"4B72A4B3D055F13B"
+			]
+			id: "6540E0AE8E69A1A9"
+			tasks: [{
+				id: "46A0DFC9CA8D2290"
+				item: "gtceu:lv_item_magnet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3DD33E15D60501E5"
+				"58296351FA9E24AD"
+			]
+			id: "457367F920778FDB"
+			tasks: [{
+				id: "1F996D572C02080D"
+				item: "gtceu:lv_sensor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4ECDDD1105D0E529"
+				"457367F920778FDB"
+				"644B42E6620EB785"
+				"4B72A4B3D055F13B"
+			]
+			id: "2E809C8E132CCB47"
+			tasks: [{
+				id: "73C4582927B74EE8"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.lv"
+					tag: {
+						Charge: 100000L
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["201744E822796650"]
+			id: "751496BCF6A43279"
+			tasks: [{
+				id: "43F8C65C62A48D08"
+				item: "gtceu:item_filter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1B04D2A2FA236B65"
+				"282383215617BCF8"
+			]
+			id: "5CFA1E736D4BCBD1"
+			tasks: [{
+				id: "081D8BF85152E7C3"
+				item: "gtceu:lv_fluid_regulator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
 		}
 	]
 	title: "Spark of Innovation"
