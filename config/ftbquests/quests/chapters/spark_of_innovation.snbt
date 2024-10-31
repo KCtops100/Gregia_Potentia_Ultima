@@ -330,21 +330,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"34B872F5BD2AF614"
-				"2769D04D1EC38C7D"
-			]
-			dependency_requirement: "one_completed"
-			id: "4F259F2288EF01E9"
-			tasks: [{
-				id: "661E8802ECCC56E8"
-				item: "gtceu:invar_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["4F259F2288EF01E9"]
 			id: "39ADF2F429BEEBCB"
 			tasks: [{

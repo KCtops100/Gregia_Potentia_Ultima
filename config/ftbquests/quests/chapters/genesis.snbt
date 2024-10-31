@@ -742,6 +742,18 @@
 			x: 2.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["363AD8F69743C275"]
+			dependency_requirement: "one_completed"
+			id: "4F259F2288EF01E9"
+			tasks: [{
+				id: "661E8802ECCC56E8"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
 	]
 	title: "Foundations of Industry"
 }
