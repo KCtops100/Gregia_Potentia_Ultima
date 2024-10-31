@@ -3,9 +3,9 @@
 	default_quest_shape: ""
 	filename: "automated_resources"
 	group: "78071135F9818164"
-	icon: "gtceu:lv_field_generator"
+	icon: "gtceu:stone_dust"
 	id: "69A426425D306003"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

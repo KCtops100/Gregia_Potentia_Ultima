@@ -5,13 +5,13 @@
 	group: "78071135F9818164"
 	icon: "gtceu:bronze_gear"
 	id: "55DB4E6066DE121F"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
-				"5C2F224F565110DC"
-				"69006F22E80E8070"
+				"3FB91D34CDFA8CFC"
+				"431327BFC049F56F"
 			]
 			hide_dependency_lines: false
 			id: "135640C05AFA154C"
@@ -24,51 +24,6 @@
 			title: "Boiler"
 			x: -1.0d
 			y: 3.0d
-		}
-		{
-			id: "5C2F224F565110DC"
-			subtitle: "You're going need one of these for a while."
-			tasks: [{
-				id: "3E5ED63844745542"
-				item: {
-					Count: 1
-					id: "gtceu:iron_wrench"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							Mode: 2b
-						}
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 2
-							MaxDamage: 255
-							ToolSpeed: 6.0f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			title: "Wrenches"
-			x: -1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"3EDC2ED070F6EA35"
-				"3FB91D34CDFA8CFC"
-			]
-			id: "69006F22E80E8070"
-			subtitle: "You're going to need many stacks of these, but for now, you just need five."
-			tasks: [{
-				count: 5L
-				id: "7E1CC7EA331C1270"
-				item: { Count: 5, id: "gtceu:bronze_plate" }
-				type: "item"
-			}]
-			title: "Bronze Plates"
-			x: -3.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["135640C05AFA154C"]
@@ -166,7 +121,11 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["74D03D0F1889D88C"]
+			dependencies: [
+				"21716EEF4952BAD2"
+				"492687CE93251551"
+				"1E9662FE71B1EBE5"
+			]
 			id: "3FB91D34CDFA8CFC"
 			subtitle: "The basic alloy for the Steam Age."
 			tasks: [{
@@ -174,31 +133,8 @@
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
-		}
-		{
-			id: "74D03D0F1889D88C"
-			subtitle: "Used for making dusts"
-			tasks: [{
-				id: "6439C98DCBB501CF"
-				item: {
-					Count: 1
-					id: "gtceu:iron_mortar"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							MaxDamage: 255
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: -2.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -238,8 +174,8 @@
 				to_observe: "gtceu:rubber_log"
 				type: "observation"
 			}]
-			x: 5.0d
-			y: 9.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			id: "6B98B24C3DC3107B"
@@ -249,8 +185,8 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -267,98 +203,6 @@
 			}]
 			x: 1.0d
 			y: 8.0d
-		}
-		{
-			id: "62A091A44CB2AD40"
-			subtitle: "You'll need versions of these for other crafting recipes."
-			tasks: [
-				{
-					id: "1B8380B13E933CC1"
-					item: {
-						Count: 1
-						id: "gtceu:iron_file"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5B6486DA93DDAD4F"
-					item: {
-						Count: 1
-						id: "gtceu:iron_screwdriver"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "779538A08409C081"
-					item: {
-						Count: 1
-						id: "gtceu:iron_saw"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								HarvestIce: 1b
-							}
-							GT.Tool: {
-								Damage: 0
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Other basic tools"
-			x: -7.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"62A091A44CB2AD40"
-				"3EDC2ED070F6EA35"
-			]
-			id: "445538B30C4A639B"
-			subtitle: "For making your first wire. Please use this as sparingly as possible"
-			tasks: [{
-				id: "40EA66540EC691BC"
-				item: {
-					Count: 1
-					id: "gtceu:iron_wire_cutter"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 2
-							MaxDamage: 255
-							ToolSpeed: 6.0f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			title: "Wire Cutter"
-			x: -5.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["363AD8F69743C275"]
@@ -393,70 +237,6 @@
 			y: 11.0d
 		}
 		{
-			id: "06DD05AF983F9504"
-			tasks: [{
-				id: "2A7138F33B2442DC"
-				title: "FIX THE TOOLS TO BE GENERIC WITH ORE DICTIONARY"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: 3.0d
-		}
-		{
-			id: "3EDC2ED070F6EA35"
-			subtitle: "Smashing"
-			tasks: [{
-				id: "47F9800F2DBD98A6"
-				item: {
-					Count: 1
-					id: "gtceu:iron_hammer"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 2
-							MaxDamage: 255
-							ToolSpeed: 6.0f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			title: "Hammers"
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			id: "06EFD011A05136B0"
-			tasks: [{
-				id: "6E232D1756079787"
-				item: {
-					Count: 1
-					id: "gtceu:flint_knife"
-					tag: {
-						DisallowContainerItem: 0b
-						Enchantments: [{
-							id: "minecraft:fire_aspect"
-							lvl: 2s
-						}]
-						GT.Behaviours: { }
-						GT.Tool: {
-							AttackDamage: 1.0f
-							AttackSpeed: 3.0f
-							Damage: 0
-							MaxDamage: 63
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: -7.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["135640C05AFA154C"]
 			id: "4CE8D772F0C51FEE"
 			tasks: [{
@@ -469,8 +249,8 @@
 		}
 		{
 			dependencies: [
-				"06EFD011A05136B0"
-				"62A091A44CB2AD40"
+				"0ACD3291054D03E3"
+				"5FB916CCD96867A0"
 			]
 			id: "47EC4DDFE478DF2B"
 			tasks: [{
@@ -478,29 +258,36 @@
 				item: "gtceu:brick_wooden_form"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 9.0d
+			x: 7.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["47EC4DDFE478DF2B"]
+			dependencies: [
+				"47EC4DDFE478DF2B"
+				"0CB7E6225AC5BDAA"
+				"218B710FC785F1BA"
+			]
 			id: "2475A724188A23D6"
 			tasks: [{
 				id: "73C724D632F3B7DD"
 				item: "gtceu:coke_oven_brick"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["2475A724188A23D6"]
+			dependencies: [
+				"2475A724188A23D6"
+				"3C5E3F0D1178E5E1"
+			]
 			id: "2173563E02EA8418"
 			tasks: [{
 				id: "5EF4BEC8D7C21451"
 				item: "gtceu:coke_oven"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: 9.0d
 		}
 		{
@@ -513,11 +300,16 @@
 				id: "5AC9FBF2A1FE10BA"
 				type: "fluid"
 			}]
-			x: 9.0d
-			y: 8.0d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["4CE8D772F0C51FEE"]
+			dependencies: [
+				"4CE8D772F0C51FEE"
+				"2A6B0E7FADD52577"
+				"0A995312F8694AC5"
+				"4F1572D488861ABC"
+			]
 			icon: "gtceu:primitive_blast_furnace"
 			id: "2BB6F3AF00926742"
 			tasks: [
@@ -553,14 +345,17 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2173563E02EA8418"]
+			dependencies: [
+				"2173563E02EA8418"
+				"774133CA03EC0A64"
+			]
 			id: "126953FFAF23AFB3"
 			tasks: [{
 				id: "2B41CB9A76CFE2C2"
 				item: "gtceu:coke_gem"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.0d
 			y: 9.0d
 		}
 		{
@@ -572,8 +367,8 @@
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: 5.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -696,7 +491,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["150BDCF763F12A5E"]
+			dependencies: [
+				"150BDCF763F12A5E"
+				"5FAB65126537CBBA"
+			]
 			id: "087B67D19167A2E5"
 			tasks: [{
 				id: "2CF43125CBC7584E"
@@ -746,6 +544,12 @@
 			y: 7.0d
 		}
 		{
+			dependencies: [
+				"7D39F2357A6992B7"
+				"1E9662FE71B1EBE5"
+				"492687CE93251551"
+				"21716EEF4952BAD2"
+			]
 			icon: "gtceu:potin_ingot"
 			id: "081284A34F3C4546"
 			tasks: [
@@ -761,10 +565,11 @@
 				}
 			]
 			title: "Tin Man’s Touch"
-			x: 4.0d
-			y: 5.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["34C33FAADE45D3FA"]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "7B5357A3DDD2ED56"
 			tasks: [
@@ -785,8 +590,134 @@
 				}
 			]
 			title: "Tempered Strength"
-			x: -7.0d
-			y: 7.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "492687CE93251551"
+			tasks: [{
+				id: "605591A264F95ECE"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "1E9662FE71B1EBE5"
+			tasks: [{
+				id: "3B6DDCB4E2AC3B19"
+				item: "gtceu:tin_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7D39F2357A6992B7"
+			tasks: [{
+				id: "578007876FA1C8BD"
+				item: "gtceu:lead_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "34C33FAADE45D3FA"
+			tasks: [{
+				id: "534B1FE942E1DDB0"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "774133CA03EC0A64"
+			tasks: [{
+				id: "57E46CB83F9BFD37"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "218B710FC785F1BA"
+			tasks: [{
+				id: "5A0F09327D6FEAB5"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "0CB7E6225AC5BDAA"
+			tasks: [{
+				icon: "minecraft:sand"
+				id: "78098EAF3839EB28"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sand"
+					}
+				}
+				title: "Any #forge:sand"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0CB7E6225AC5BDAA"]
+			id: "5FAB65126537CBBA"
+			tasks: [{
+				id: "4F8808153DFBF879"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["218B710FC785F1BA"]
+			id: "431327BFC049F56F"
+			tasks: [{
+				id: "4D57FD74F2216F79"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"596C2DC6A2BCD233"
+				"492687CE93251551"
+				"21716EEF4952BAD2"
+			]
+			dependency_requirement: "one_completed"
+			id: "3DD33E15D60501E5"
+			tasks: [{
+				id: "4C8CFEB0874EDA80"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "596C2DC6A2BCD233"
+			tasks: [{
+				id: "1B4E58F46C05FD11"
+				item: "gtceu:zinc_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	title: "Foundations of Industry"

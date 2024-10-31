@@ -5,14 +5,11 @@
 	group: "78071135F9818164"
 	icon: "gtceu:steel_gear"
 	id: "488C756FB0557BCC"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"499172A387E5D177"
-				"445538B30C4A639B"
-			]
+			dependencies: ["499172A387E5D177"]
 			icon: "gtceu:lv_electric_motor"
 			id: "3FAD3D8E26675C81"
 			subtitle: "The main parts, other than your circuit, which you need to make for a steam turbine. You can magnetize iron by putting it in a crafting table with four redstone dust."
@@ -459,21 +456,6 @@
 			}]
 			x: -4.0d
 			y: 7.0d
-		}
-		{
-			dependencies: [
-				"34B872F5BD2AF614"
-				"2769D04D1EC38C7D"
-			]
-			dependency_requirement: "one_completed"
-			id: "3DD33E15D60501E5"
-			tasks: [{
-				id: "4C8CFEB0874EDA80"
-				item: "gtceu:brass_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 12.0d
 		}
 		{
 			dependencies: ["104DC0EEBEB141B8"]
