@@ -493,7 +493,7 @@
 				item: "gtceu:lv_battery_hull"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -619,6 +619,44 @@
 			}]
 			x: 2.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["0C6E976FFF235627"]
+			id: "6B4D32E70C14BE6E"
+			tasks: [{
+				id: "24203C60A3644269"
+				item: "gtceu:mv_battery_hull"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B4D32E70C14BE6E"
+				"3D467C07CD5C98F0"
+			]
+			id: "740DDF08286126C0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:mv_sodium_battery"
+					tag: {
+						Charge: 360000L
+					}
+				}
+				id: "6E126E33CF3B2F4E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:batteries/mv"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	title: "Spark of Innovation"
