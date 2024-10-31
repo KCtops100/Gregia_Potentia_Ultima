@@ -484,6 +484,27 @@
 			x: 4.0d
 			y: 2.0d
 		}
+		{
+			id: "347D449CDB23BBF7"
+			tasks: [{
+				id: "6D7284AA7C7716A6"
+				item: "gtceu:lv_battery_hull"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B04D2A2FA236B65"]
+			id: "3D467C07CD5C98F0"
+			tasks: [{
+				id: "4A76AE142A71B5F6"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
 	]
 	title: "Spark of Innovation"
 }
