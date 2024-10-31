@@ -719,6 +719,29 @@
 			x: -2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["363AD8F69743C275"]
+			dependency_requirement: "one_completed"
+			id: "7D24A1439F48FC6B"
+			tasks: [{
+				id: "2F39605AD576A3F0"
+				item: "gtceu:tin_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["363AD8F69743C275"]
+			id: "13CE2C7E2DDECF87"
+			tasks: [{
+				id: "4240081E5C7ADCA9"
+				item: "gtceu:electrum_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
 	]
 	title: "Foundations of Industry"
 }

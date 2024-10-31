@@ -319,21 +319,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"34B872F5BD2AF614"
-				"2769D04D1EC38C7D"
-			]
-			dependency_requirement: "one_completed"
-			id: "7D24A1439F48FC6B"
-			tasks: [{
-				id: "2F39605AD576A3F0"
-				item: "gtceu:tin_alloy_ingot"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["198F9235D3061A31"]
 			id: "201744E822796650"
 			tasks: [{

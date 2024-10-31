@@ -332,17 +332,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["363AD8F69743C275"]
-			id: "13CE2C7E2DDECF87"
-			tasks: [{
-				id: "4240081E5C7ADCA9"
-				item: "gtceu:electrum_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["78B4A91E76458A0A"]
 			id: "575334973365021F"
 			tasks: [{
