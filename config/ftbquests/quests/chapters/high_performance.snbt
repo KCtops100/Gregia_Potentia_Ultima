@@ -279,6 +279,105 @@
 			x: 1.0d
 			y: 1.0d
 		}
+		{
+			dependencies: [
+				"302B33F84C8A395A"
+				"41C840450F54907C"
+			]
+			id: "25878FC633864456"
+			tasks: [{
+				id: "2EADCD3D54BC1F2F"
+				item: "gtceu:black_bronze_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4508FC26C8FF9312"]
+			id: "31596A33A52DCFD8"
+			tasks: [{
+				id: "0D7576DA97D99C8A"
+				item: "gtceu:frostproof_machine_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"699EE554DF1DD891"
+				"5245C015781C5DF6"
+				"31596A33A52DCFD8"
+			]
+			id: "41C840450F54907C"
+			tasks: [{
+				id: "0C88DD53E6D9017C"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41C840450F54907C"]
+			icon: "gtceu:titanium_ingot"
+			id: "490E54D7DEF7F070"
+			tasks: [
+				{
+					id: "3C1A65C9143B2624"
+					item: "gtceu:rutile_dust"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:titanium_tetrachloride"
+					icon: "gtceu:titanium_tetrachloride_bucket"
+					id: "28932F8FB7FC7DB4"
+					type: "fluid"
+				}
+				{
+					id: "4A8A2FE4CD0D5962"
+					item: "gtceu:hot_titanium_ingot"
+					type: "item"
+				}
+				{
+					id: "746A13F45E2B592F"
+					item: "gtceu:titanium_ingot"
+					type: "item"
+				}
+			]
+			title: "Strength in Lightness"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41C840450F54907C"]
+			id: "16D8DF824E9BBAA4"
+			tasks: [{
+				id: "5731B18F6AB277E5"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"04490489D15C8489"
+				"2A2466DB69F16358"
+				"648A672A10D40DDB"
+				"16D8DF824E9BBAA4"
+			]
+			id: "5903D238F908B86F"
+			tasks: [{
+				id: "5A8DCCE230270372"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
 	]
 	title: "Peak Performance"
 }
