@@ -352,7 +352,6 @@ event.recipes.gtceu.circuit_assembler('kubejs:wither_skelekton_cognitive_matrix'
         ['coal_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:coal'], 40, 128, 0],
         ['lead_ingot_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', '8x gtceu:lead_ingot'], 100, 512, 1],
         ['head_from_wither_skeleton', 'kubejs:wither_skeleton_cognitive_matrix', ['kubejs:inferno_matter', 'minecraft:wither_skeleton_skull'], 100, 128, 2],
-
         /**
          * Zombie
          * rotten flesh - LV
