@@ -142,7 +142,7 @@
 				"4AA9FB5FDAD040F1"
 			]
 			id: "36D0BC6E25AC9C5C"
-			subtitle: "Extractedfrom Sticky Resin"
+			subtitle: "Extracted from Sticky Resin"
 			tasks: [{
 				id: "4B2516BA2621CDF7"
 				item: "gtceu:raw_rubber_dust"
@@ -238,6 +238,7 @@
 		}
 		{
 			dependencies: ["135640C05AFA154C"]
+			description: ["Your first compressor. You need it for the blast furnace right now, but it makes some other elements cheaper."]
 			id: "4CE8D772F0C51FEE"
 			tasks: [{
 				id: "350A9AFF88F9A057"
@@ -281,6 +282,7 @@
 				"2475A724188A23D6"
 				"3C5E3F0D1178E5E1"
 			]
+			description: ["Process fuels for new materials."]
 			id: "2173563E02EA8418"
 			tasks: [{
 				id: "5EF4BEC8D7C21451"
@@ -310,6 +312,7 @@
 				"0A995312F8694AC5"
 				"4F1572D488861ABC"
 			]
+			description: ["Your first way of making steel."]
 			icon: "gtceu:primitive_blast_furnace"
 			id: "2BB6F3AF00926742"
 			tasks: [
@@ -349,6 +352,7 @@
 				"2173563E02EA8418"
 				"774133CA03EC0A64"
 			]
+			description: ["Coal, but better"]
 			id: "126953FFAF23AFB3"
 			tasks: [{
 				id: "2B41CB9A76CFE2C2"
@@ -375,6 +379,7 @@
 				"126953FFAF23AFB3"
 				"2BB6F3AF00926742"
 			]
+			description: ["THe bedrock of industry. You will need countless stacks of this stuff, so find a way to automate it quickly."]
 			id: "567A2F4C34FFD146"
 			tasks: [{
 				id: "4DB7DDB815FF47AC"
@@ -400,6 +405,7 @@
 				"4AA9FB5FDAD040F1"
 				"195B2A0A4E605650"
 			]
+			description: ["Your first circuit board."]
 			icon: "gtceu:resin_printed_circuit_board"
 			id: "4FD1758556DEF0A5"
 			tasks: [
@@ -442,6 +448,7 @@
 		}
 		{
 			dependencies: ["135640C05AFA154C"]
+			description: ["It crushes things."]
 			id: "150BDCF763F12A5E"
 			tasks: [{
 				id: "09E180C144FC0366"
@@ -467,6 +474,7 @@
 				"567A2F4C34FFD146"
 				"087B67D19167A2E5"
 			]
+			description: ["You're telling me that I'm supposed to make a computer out of lightbulbs?"]
 			icon: "gtceu:vacuum_tube"
 			id: "4B3DA5DF6A398B5D"
 			tasks: [
@@ -509,6 +517,7 @@
 				"499172A387E5D177"
 				"0D502A7FB377E34A"
 			]
+			description: ["Wire and insulation to make it safer."]
 			id: "57DF6936713C9F22"
 			tasks: [{
 				id: "5B60013232756A6D"
@@ -550,6 +559,7 @@
 				"492687CE93251551"
 				"21716EEF4952BAD2"
 			]
+			description: ["An important alloy for making some steam machines."]
 			icon: "gtceu:potin_ingot"
 			id: "081284A34F3C4546"
 			tasks: [
@@ -570,6 +580,7 @@
 		}
 		{
 			dependencies: ["34C33FAADE45D3FA"]
+			description: ["Wrought iron is one of the basic materials of the early game. Its primary use is in steel production, and steel is the building block of your future."]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "7B5357A3DDD2ED56"
 			tasks: [
@@ -594,6 +605,7 @@
 			y: 1.0d
 		}
 		{
+			description: ["An important metal of electricity, but before that you will need it for bronze and other early alloys."]
 			id: "492687CE93251551"
 			tasks: [{
 				id: "605591A264F95ECE"
@@ -604,6 +616,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["An incredibly useful metal, especially in its alloys."]
 			id: "1E9662FE71B1EBE5"
 			tasks: [{
 				id: "3B6DDCB4E2AC3B19"
@@ -614,6 +627,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["A soft metal very useful in alloys. Just don't eat it."]
 			id: "7D39F2357A6992B7"
 			tasks: [{
 				id: "578007876FA1C8BD"
@@ -625,6 +639,7 @@
 		}
 		{
 			id: "34C33FAADE45D3FA"
+			subtitle: "Believe it or not, you'll probably be getting most of this from zombies."
 			tasks: [{
 				id: "534B1FE942E1DDB0"
 				item: "minecraft:iron_ingot"
@@ -634,6 +649,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["This is minecraft. I don't think coal needs any explanation."]
 			id: "774133CA03EC0A64"
 			tasks: [{
 				id: "57E46CB83F9BFD37"
@@ -700,6 +716,7 @@
 				"21716EEF4952BAD2"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Early game alloy."]
 			id: "3DD33E15D60501E5"
 			tasks: [{
 				id: "4C8CFEB0874EDA80"
@@ -710,6 +727,7 @@
 			y: 1.0d
 		}
 		{
+			description: ["You won't need much Zinc in the early game in comparison to the other metals, but I would suggest getting a few stacks of ore sooner rather than later, as it can't be automated as easily as the other basic metals."]
 			id: "596C2DC6A2BCD233"
 			tasks: [{
 				id: "1B4E58F46C05FD11"
@@ -745,6 +763,7 @@
 		{
 			dependencies: ["363AD8F69743C275"]
 			dependency_requirement: "one_completed"
+			description: ["An alloy of Nickel and Iron. Important for a more advanced kind of blast furnace."]
 			id: "4F259F2288EF01E9"
 			tasks: [{
 				id: "661E8802ECCC56E8"
@@ -756,6 +775,7 @@
 		}
 		{
 			dependencies: ["363AD8F69743C275"]
+			description: ["A bit of an annoying alloy to make, but you need it for power storage."]
 			id: "0C6E976FFF235627"
 			tasks: [{
 				id: "7EFD06FA9A23C552"

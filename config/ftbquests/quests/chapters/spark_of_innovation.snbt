@@ -69,6 +69,7 @@
 		}
 		{
 			dependencies: ["7B5357A3DDD2ED56"]
+			description: ["The first machine casing, the primary ingredient in GregTech machines."]
 			icon: "gtceu:lv_machine_hull"
 			id: "1475F0E7ADCDEAF7"
 			tasks: [
@@ -109,6 +110,7 @@
 				"282383215617BCF8"
 				"0E73900B7BC74CCF"
 			]
+			description: ["An advanced circuit component."]
 			id: "1899E6C86E351D49"
 			tasks: [{
 				id: "25877158003D649B"
@@ -131,6 +133,7 @@
 		}
 		{
 			dependencies: ["104DC0EEBEB141B8"]
+			description: ["Essential for mixing the dusts of advanced alloys."]
 			id: "2769D04D1EC38C7D"
 			tasks: [{
 				id: "049D3DA78EEFB215"
@@ -158,6 +161,7 @@
 				"282383215617BCF8"
 				"736E39E1CFF1E0E3"
 			]
+			description: ["A better circuit board."]
 			icon: "gtceu:phenolic_printed_circuit_board"
 			id: "62EF81453EA35985"
 			tasks: [
@@ -203,6 +207,7 @@
 		}
 		{
 			dependencies: ["7EFE87646A3A978E"]
+			description: ["Crafting component as well as a way to feed items into machine when used as a cover."]
 			id: "3146103A8276B095"
 			tasks: [{
 				id: "0C603530C1FE8D00"
@@ -214,6 +219,7 @@
 		}
 		{
 			dependencies: ["198F9235D3061A31"]
+			description: ["Cheaper rods and screws."]
 			id: "7EFE87646A3A978E"
 			tasks: [{
 				id: "297BA794E74130C4"
@@ -248,6 +254,7 @@
 		}
 		{
 			dependencies: ["104DC0EEBEB141B8"]
+			description: ["Go take it for a spin."]
 			id: "5FDB77CAEF1B2D3D"
 			tasks: [{
 				id: "405BBD838F221D93"
@@ -259,6 +266,7 @@
 		}
 		{
 			dependencies: ["104DC0EEBEB141B8"]
+			description: ["Both a recycler and a way to cook some materials much more quickly than in a furncce."]
 			id: "14C2F80723575693"
 			tasks: [{
 				id: "125C4491A035DD81"
@@ -321,6 +329,7 @@
 		}
 		{
 			dependencies: ["198F9235D3061A31"]
+			description: ["Cheap plates!"]
 			id: "201744E822796650"
 			tasks: [{
 				id: "7FC12D7EE5A68DC9"
@@ -346,6 +355,7 @@
 				"39ADF2F429BEEBCB"
 				"7675990FCC654CF4"
 			]
+			description: ["You'll want a lot of these, but one is fine for now. With it you can make Aluminum as well as a host of other metals. It's a slow machine though, so make sure you automate it."]
 			id: "71D4517175C40F02"
 			tasks: [{
 				id: "79F3B5122947D2F1"
@@ -362,6 +372,7 @@
 				"201744E822796650"
 				"493C4DC08B67D755"
 			]
+			description: ["The first tier of electronic blast furnace coils. As you get access to higher tiers of coil, you'll want to switch them out for efficiency reasons, as well as processing more advanced materials."]
 			id: "7675990FCC654CF4"
 			tasks: [{
 				count: 16L
@@ -374,6 +385,7 @@
 		}
 		{
 			dependencies: ["71D4517175C40F02"]
+			description: ["The basic material for MV."]
 			id: "4508FC26C8FF9312"
 			tasks: [{
 				id: "77765ED082F76490"
@@ -408,6 +420,7 @@
 				"3146103A8276B095"
 				"4ECDDD1105D0E529"
 			]
+			description: ["The machine for making circuits. You don't need a cleanroom yet, but that will become essential for higher tier circuits."]
 			id: "03432D325D08F141"
 			tasks: [{
 				id: "7B73DC032A40505E"
@@ -487,6 +500,7 @@
 		}
 		{
 			dependencies: ["0C6E976FFF235627"]
+			description: ["Power storage"]
 			id: "347D449CDB23BBF7"
 			tasks: [{
 				id: "6D7284AA7C7716A6"
@@ -512,6 +526,7 @@
 				"347D449CDB23BBF7"
 				"3D467C07CD5C98F0"
 			]
+			description: ["Its nice to have reusable power storage."]
 			id: "4B72A4B3D055F13B"
 			tasks: [{
 				icon: {
@@ -531,11 +546,13 @@
 				}
 				type: "item"
 			}]
+			title: "Small rechargable batteries"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7EFE87646A3A978E"]
+			description: ["Easily magnetize your parts."]
 			id: "7E6786A419D6D1F1"
 			tasks: [{
 				id: "0B36D05CBD4E63A5"
@@ -550,6 +567,7 @@
 				"7E6786A419D6D1F1"
 				"4B72A4B3D055F13B"
 			]
+			description: ["Picks up items in a larger radius than normal."]
 			id: "6540E0AE8E69A1A9"
 			tasks: [{
 				id: "46A0DFC9CA8D2290"
@@ -622,6 +640,7 @@
 		}
 		{
 			dependencies: ["0C6E976FFF235627"]
+			description: ["Power storage, but bigger"]
 			id: "6B4D32E70C14BE6E"
 			tasks: [{
 				id: "24203C60A3644269"
@@ -636,6 +655,7 @@
 				"6B4D32E70C14BE6E"
 				"3D467C07CD5C98F0"
 			]
+			description: ["What it says on the tin."]
 			id: "740DDF08286126C0"
 			tasks: [{
 				icon: {
@@ -655,6 +675,7 @@
 				}
 				type: "item"
 			}]
+			title: "Medium rechargable batteries"
 			x: 5.0d
 			y: 1.0d
 		}
