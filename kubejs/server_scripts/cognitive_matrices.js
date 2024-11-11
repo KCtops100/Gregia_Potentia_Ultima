@@ -375,4 +375,107 @@ event.recipes.gtceu.circuit_assembler('kubejs:wither_skelekton_cognitive_matrix'
             .EUt(eut)
             .circuit(circuitNumber)
     })
+
+    event.recipes.gtceu.chemical_reactor('kubejs:sentient_putty')
+        .itemInputs('gtceu:ender_pearl_dust')
+        .inputFluids(Fluid.of('gtceu:polyethylene', 144))
+        .itemOutputs('kubejs:sentient_putty')
+        .duration(20*2)
+        .EUt(128)
+    event.recipes.gtceu.mixer('kubejs:neuromold')
+        .itemInputs('kubejs:sentient_putty', 'minecraft:clay_ball')
+        .itemOutputs('kubejs:neuromold')
+        .duration(20*2)
+        .EUt(32)
+    event.shaped('gtceu:lv_neural_network_fabricator', [
+        'ABA', 
+        'CDC',
+        'EFE'  
+        ], {
+            A: 'gtceu:steel_plate', 
+            B: 'gtceu:lv_field_generator',
+            C: '#gtceu:circuits/lv',
+            D: 'gtceu:lv_machine_hull',
+            E: 'gtceu:manganese_phosphide_quadruple_wire',
+            F: 'gtceu:lv_emitter'
+        }
+    )
+    event.shaped('gtceu:mv_neural_network_fabricator', [
+        'ABA', 
+        'CDC',
+        'EFE'  
+        ], {
+            A: 'gtceu:aluminium_plate', 
+            B: 'gtceu:mv_field_generator',
+            C: '#gtceu:circuits/mv',
+            D: 'gtceu:mv_machine_hull',
+            E: 'gtceu:magnesium_diboride_quadruple_wire',
+            F: 'gtceu:mv_emitter'
+        }
+    )
+    event.shaped('gtceu:hv_neural_network_fabricator', [
+        'ABA', 
+        'CDC',
+        'EFE'  
+        ], {
+            A: 'gtceu:stainless_steel_plate', 
+            B: 'gtceu:hv_field_generator',
+            C: '#gtceu:circuits/hv',
+            D: 'gtceu:hv_machine_hull',
+            E: 'gtceu:mercury_barium_calcium_cuprate_quadruple_wire',
+            F: 'gtceu:hv_emitter'
+        }
+    )
+    event.shaped('gtceu:ev_neural_network_fabricator', [
+        'ABA', 
+        'CDC',
+        'EFE'  
+        ], {
+            A: 'gtceu:titanium_plate', 
+            B: 'gtceu:ev_field_generator',
+            C: '#gtceu:circuits/hv',
+            D: 'gtceu:ev_machine_hull',
+            E: 'gtceu:uranium_triplatinum_quadruple_wire',
+            F: 'gtceu:ev_emitter'
+        }
+    )
+    event.shaped('gtceu:iv_neural_network_fabricator', [
+        'ABA', 
+        'CDC',
+        'EFE'  
+        ], {
+            A: 'gtceu:tungsten_steel_plate', 
+            B: 'gtceu:iv_field_generator',
+            C: '#gtceu:circuits/iv',
+            D: 'gtceu:iv_machine_hull',
+            E: 'gtceu:samarium_iron_arsenic_oxide_quadruple_wire',
+            F: 'gtceu:iv_emitter'
+        }
+    )
+    event.shaped('gtceu:luv_neural_network_fabricator', [
+        'ABA', 
+        'CDC',
+        'EFE'  
+        ], {
+            A: 'gtceu:rhodium_plated_palladium_plate', 
+            B: 'gtceu:luv_field_generator',
+            C: '#gtceu:circuits/luv',
+            D: 'gtceu:luv_machine_hull',
+            E: 'gtceu:indium_tin_barium_titanium_cuprate_quadruple_wire',
+            F: 'gtceu:luv_emitter'
+        }
+    )
+    event.shaped('gtceu:uv_neural_network_fabricator', [
+        'ABA', 
+        'CDC',
+        'EFE'  
+        ], {
+            A: 'gtceu:darmstadtium_plate', 
+            B: 'gtceu:uv_field_generator',
+            C: '#gtceu:circuits/uv',
+            D: 'gtceu:uv_machine_hull',
+            E: 'gtceu:enriched_naquadah_trinium_europium_duranide_quadruple_wire',
+            F: 'gtceu:uv_emitter'
+        }
+    )
 })
