@@ -211,5 +211,4 @@ ServerEvents.recipes(event => {
     .duration(500)
     .EUt(8192)
     .circuit(1)
-  
 })
