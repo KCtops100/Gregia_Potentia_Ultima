@@ -973,7 +973,9 @@
 				"41AC184710EF09B1"
 				"1778856E931F27D7"
 			]
+			description: ["Fine Wire is crucial for crafting intricate electrical components, enabling efficient transmission of energy in your technological creations."]
 			id: "33A4E9921DEF0BCA"
+			subtitle: "Essential for Electrical Applications"
 			tasks: [{
 				icon: "gtceu:fine_tin_wire"
 				id: "13B82FE9F8E7190B"
@@ -987,6 +989,7 @@
 				title: "Craft Gregtech Fine Wire"
 				type: "item"
 			}]
+			title: "Delicate Connections"
 			x: 6.0d
 			y: 1.0d
 		}
