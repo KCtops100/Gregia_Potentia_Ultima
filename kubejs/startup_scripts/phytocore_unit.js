@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 
 // Machines
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('phyto_core_unit', 'simple', GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV, GTValues.UEV, GTValues.UIV)
+    event.create('phyto_core_unit', 'simple', GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV)
         .langValue("PhytoCore Unit")
         .recipeType('plant_growing', true, true)
         .workableTieredHullRenderer('gtceu:block/machines/replicator')

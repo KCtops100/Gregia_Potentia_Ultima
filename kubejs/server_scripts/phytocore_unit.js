@@ -54,4 +54,100 @@ ServerEvents.recipes(event => {
             .EUt(Math.floor(eut * 1.5))
             .chancedInput('gtceu:fertilizer', 5000, 2500);
     })
+    event.shaped('gtceu:lv_phyto_core_unit', [
+        'ABA', 
+        'CDC',
+        'AFA'  
+        ], {
+            A: 'gtceu:steel_plate', 
+            B: 'gtceu:lv_electric_pump',
+            C: 'gtceu:glowstone_plate',
+            D: 'gtceu:lv_machine_hull',
+            F: '#gtceu:circuits/lv'
+        }
+    )
+    event.shaped('gtceu:mv_phyto_core_unit', [
+        'ABA', 
+        'CDC',
+        'AFA'  
+        ], {
+            A: 'gtceu:aluminium_plate', 
+            B: 'gtceu:mv_electric_pump',
+            C: 'gtceu:glowstone_plate',
+            D: 'gtceu:mv_machine_hull',
+            F: '#gtceu:circuits/mv'
+        }
+    )
+    event.shaped('gtceu:hv_phyto_core_unit', [
+        'ABA', 
+        'CDC',
+        'AFA'  
+        ], {
+            A: 'gtceu:stainless_steel_plate', 
+            B: 'gtceu:hv_electric_pump',
+            C: 'gtceu:glowstone_plate',
+            D: 'gtceu:hv_machine_hull',
+            F: '#gtceu:circuits/hv'
+        }
+    )
+    event.shaped('gtceu:ev_phyto_core_unit', [
+        'ABA', 
+        'CDC',
+        'AFA'  
+        ], {
+            A: 'gtceu:titanium_plate', 
+            B: 'gtceu:ev_electric_pump',
+            C: 'gtceu:glowstone_plate',
+            D: 'gtceu:ev_machine_hull',
+            F: '#gtceu:circuits/ev'
+        }
+    )
+    event.shaped('gtceu:iv_phyto_core_unit', [
+        'ABA', 
+        'CDC',
+        'AFA'  
+        ], {
+            A: 'gtceu:tungsten_steel_plate', 
+            B: 'gtceu:iv_electric_pump',
+            C: 'gtceu:glowstone_plate',
+            D: 'gtceu:iv_machine_hull',
+            F: '#gtceu:circuits/iv'
+        }
+    )
+    event.shaped('gtceu:luv_phyto_core_unit', [
+        'ABA', 
+        'CDC',
+        'AFA'  
+        ], {
+            A: 'gtceu:rhodium_plated_palladium_plate', 
+            B: 'gtceu:luv_electric_pump',
+            C: 'gtceu:glowstone_plate',
+            D: 'gtceu:luv_machine_hull',
+            F: '#gtceu:circuits/luv'
+        }
+    )
+    event.shaped('gtceu:zpm_phyto_core_unit', [
+        'ABA', 
+        'CDC',
+        'AFA'  
+        ], {
+            A: 'gtceu:darmstadtium_plate', 
+            B: 'gtceu:zpm_electric_pump',
+            C: 'gtceu:glowstone_plate',
+            D: 'gtceu:zpm_machine_hull',
+            F: '#gtceu:circuits/zpm'
+        }
+    )
+    event.shaped('gtceu:uv_phyto_core_unit', [
+        'ABA', 
+        'CDC',
+        'AFA'  
+        ], {
+            A: 'gtceu:naquadah_alloy_plate', 
+            B: 'gtceu:uv_electric_pump',
+            C: 'gtceu:glowstone_plate',
+            D: 'gtceu:uv_machine_hull',
+            F: '#gtceu:circuits/uv'
+        }
+    )
 })
