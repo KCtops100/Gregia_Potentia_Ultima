@@ -1,236 +1,157 @@
 ServerEvents.recipes(event => {
-
+    // Bee
     event.recipes.gtceu.circuit_assembler('kubejs:bee_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:honeycomb'
-        )
-        .itemOutputs(
-            'kubejs:bee_cognitive_matrix'
-        )
-
-
+        .itemInputs('#gtceu:circuits/mv','8x gtceu:fine_copper_wire', 'minecraft:sugar', 'gtceu:steel_plate', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:bee_cognitive_matrix')
+        .EUt(32)
+        .duration(10*20)
+    // Blaze
     event.recipes.gtceu.circuit_assembler('kubejs:blaze_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:blaze_rod'
-        )
-        .itemOutputs(
-            'kubejs:blaze_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:chicken_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/lv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:feather'
-        )
-        .itemOutputs(
-            'kubejs:chicken_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:cow_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/lv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:leather'
-        )
-        .itemOutputs(
-            'kubejs:cow_cognitive_matrix'
-        )
-
-
+        .itemInputs('#gtceu:circuits/mv','8x gtceu:fine_annealed_copper_wire', 'gtceu:carbon_dust', 'gtceu:sulfur_dust', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:blaze_cognitive_matrix')
+        .EUt(32)
+        .duration(10*20)
+    // Chicken
+    event.recipes.gtceu.circuit_assembler('kubejs:chicken_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/lv','8x gtceu:fine_copper_wire', 'gtceu:steel_plate', 'minecraft:chicken')
+        .itemOutputs('kubejs:chicken_cognitive_matrix')
+        .EUt(32)
+        .duration(5*20)
+    // Cow
+    event.recipes.gtceu.circuit_assembler('kubejs:cow_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/lv','8x gtceu:fine_copper_wire', 'gtceu:steel_plate', 'minecraft:beef')
+        .itemOutputs('kubejs:cow_cognitive_matrix')
+        .EUt(32)
+        .duration(5*20)
+    // Creeper
     event.recipes.gtceu.circuit_assembler('kubejs:creeper_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/lv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:gunpowder'
-        )
-        .itemOutputs(
-            'kubejs:creeper_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:drowned_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:rotten_flesh',
-            'minecraft:water_bottle'
-        )
-        .itemOutputs(
-            'kubejs:drowned_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:elder_guardian_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/hv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:prismarine_crystals'
-        )
-        .itemOutputs(
-            'kubejs:elder_guardian_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:ender_dragon_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/ev',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:dragon_egg'
-        )
-        .itemOutputs(
-            'kubejs:ender_dragon_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:enderman_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:ender_pearl'
-        )
-        .itemOutputs(
-            'kubejs:enderman_cognitive_matrix'
-        )
-
-
-
+        .itemInputs('#gtceu:circuits/lv','8x gtceu:fine_copper_wire', 'minecraft:gunpowder', 'gtceu:steel_plate', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:creeper_cognitive_matrix')
+        .EUt(32)
+        .duration(10*20)
+    // Drowned
+    event.recipes.gtceu.circuit_assembler('kubejs:drowned_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/mv','8x gtceu:fine_copper_wire', 'gtceu:annealed_copper_plate', 'gtceu:salt_dust', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:drowned_cognitive_matrix')
+        .EUt(128)
+        .duration(10*20)
+    // Elder Guardian
+    // event.recipes.gtceu.circuit_assembler('kubejs:elder_guardian_cognitive_matrix')
+    //     .itemInputs(
+    //         '#gtceu:circuits/hv',
+    //         'minecraft:iron_sword',
+    //         'gtceu:steel_plate',
+    //         'minecraft:prismarine_crystals')
+    //     .itemOutputs('kubejs:elder_guardian_cognitive_matrix')
+    //     .EUt()
+    //     .duration()
+    // Ender Dragon
+    event.recipes.gtceu.circuit_assembler('kubejs:ender_dragon_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/ev','8x gtceu:fine_platinum_wire', 'gtceu:tungsten_plate', 'gtceu:dense_obsidian_plate', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:ender_dragon_cognitive_matrix')
+        .EUt(512)
+        .duration(20*20)
+    // Enderman
+    event.recipes.gtceu.circuit_assembler('kubejs:enderman_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/mv','8x gtceu:fine_copper_wire', 'gtceu:ender_pearl_plate', 'gtceu:steel_plate', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:enderman_cognitive_matrix')
+        .EUt(128)
+        .duration(10*20)
+    // Evoker
+    event.recipes.gtceu.circuit_assembler('kubejs:evoker_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/hv','8x gtceu:fine_copper_wire', 'gtceu:emerald_plate', 'gtceu:steel_plate', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:evoker_cognitive_matrix')
+        .EUt(128)
+        .duration(10*20)
+    // Ghast
     event.recipes.gtceu.circuit_assembler('kubejs:ghast_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:ghast_tear'
-        )
-        .itemOutputs(
-            'kubejs:ghast_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:guardian_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:prismarine_shard'
-        )
-        .itemOutputs(
-            'kubejs:guardian_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:iron_golem_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/hv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:poppy'
-        )
-        .itemOutputs(
-            'kubejs:iron_golem_cognitive_matrix'
-        )
-
-
-
+        .itemInputs('#gtceu:circuits/mv','8x gtceu:fine_annealed_copper_wire', 'gtceu:potassium_dust', 'gtceu:salt_dust', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:ghast_cognitive_matrix')
+        .EUt(128)
+        .duration(10*20)
+    // Glow Squid
+    event.recipes.gtceu.circuit_assembler('kubejs:glow_squid_cognitive_matrix')
+        .itemInputs('kubejs:squid_cognitive_matrix','gtceu:phosphorus_dust', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:glow_squid_cognitive_matrix')
+        .EUt(512)
+        .duration(10*20)
+    // Guardian
+    // event.recipes.gtceu.circuit_assembler('kubejs:guardian_cognitive_matrix')
+    //     .itemInputs(
+    //         '#gtceu:circuits/mv',
+    //         'minecraft:iron_sword',
+    //         'gtceu:steel_plate',
+    //         'minecraft:prismarine_shard'
+    //     )
+    //     .itemOutputs(
+    //         'kubejs:guardian_cognitive_matrix'
+    //     )
+    // Iron Golem
+    event.recipes.gtceu.circuit_assembler('kubejs:iron_golem_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/hv','8x gtceu:fine_gold_wire', 'gtceu:stainless_steel_plate', 'gtceu:double_steel_plate', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:iron_golem_cognitive_matrix')
+        .EUt(512)
+        .duration(10*20)
+    // Magma Cube
     event.recipes.gtceu.circuit_assembler('kubejs:magma_cube_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:magma_cream'
-        )
-        .itemOutputs(
-            'kubejs:magma_cube_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:pig_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/lv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:raw_pork'
-        )
-        .itemOutputs(
-            'kubejs:blaze_cognitive_matrix'
-        )
-
-
+        .itemInputs('#gtceu:circuits/mv','8x gtceu:fine_annealed_copper_wire', 'gtceu:sulfur_dust', 'gtceu:gold_plate', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:magma_cube_cognitive_matrix')
+        .EUt(128)
+        .duration(10*20)
+    // Pig
+    event.recipes.gtceu.circuit_assembler('kubejs:pig_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/lv','8x gtceu:fine_copper_wire', 'gtceu:steel_plate', 'minecraft:porkchop')
+        .itemOutputs('kubejs:pig_cognitive_matrix')
+        .EUt(32)
+        .duration(5*20)
+    // Piglin
+    event.recipes.gtceu.circuit_assembler('kubejs:piglin_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/mv','8x gtceu:fine_gold_wire', 'gtceu:gold_plate', 'gtceu:sulfur_dust','2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:piglin_cognitive_matrix')
+        .EUt(128)
+        .duration(10*20)
+    // Rabbit
+    event.recipes.gtceu.circuit_assembler('kubejs:rabbit_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/lv','8x gtceu:fine_copper_wire', 'gtceu:steel_plate', 'minecraft:rabbit')
+        .itemOutputs('kubejs:rabbit_cognitive_matrix')
+        .EUt(32)
+        .duration(5*20)
+    // Skeleton
     event.recipes.gtceu.circuit_assembler('kubejs:skeleton_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/lv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:bone'
-        )
-        .itemOutputs(
-            'kubejs:skeleton_cognitive_matrix'
-        )
-
+        .itemInputs('#gtceu:circuits/lv','8x gtceu:fine_copper_wire', 'gtceu:calcium_dust', 'gtceu:tin_plate', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:skeleton_cognitive_matrix')
+        .EUt(128)
+        .duration(10*20)
+    // Spider
     event.recipes.gtceu.circuit_assembler('kubejs:spider_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/lv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:spider_eye'
-        )
-        .itemOutputs(
-            'kubejs:spider_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:sheep_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:raw_mutton'
-        )
-        .itemOutputs(
-            'kubejs:sheep_cognitive_matrix'
-        )
-
-event.recipes.gtceu.circuit_assembler('kubejs:squid_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:ink_sac'
-        )
-        .itemOutputs(
-            'kubejs:squid_cognitive_matrix'
-        )
-
-
-
-event.recipes.gtceu.circuit_assembler('kubejs:wither_skelekton_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/mv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:wither_skeleton_skull'
-        )
-        .itemOutputs(
-            'kubejs:wither_skeleton_cognitive_matrix'
-        )
-
-
-
+        .itemInputs('#gtceu:circuits/lv','8x gtceu:fine_copper_wire', 'minecraft:spider_eye')
+        .itemOutputs('kubejs:spider_cognitive_matrix')
+        .EUt(128)
+        .duration(10*20)
+    // Sheep
+    event.recipes.gtceu.circuit_assembler('kubejs:sheep_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/lv','8x gtceu:fine_copper_wire', 'gtceu:steel_plate', 'minecraft:mutton')
+        .itemOutputs('kubejs:sheep_cognitive_matrix')
+        .EUt(32)
+        .duration(5*20)
+    // Squid
+    event.recipes.gtceu.circuit_assembler('kubejs:squid_cognitive_matrix')
+        .itemInputs('#gtceu:circuits/mv','8x gtceu:fine_copper_wire', 'gtceu:salt_dust', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:squid_cognitive_matrix')
+        .EUt(32)
+        .duration(5*20)
+    // Wither Skeleton
+    event.recipes.gtceu.circuit_assembler('kubejs:wither_skeleton_cognitive_matrix')
+        .itemInputs('kubejs:skeleton_cognitive_matrix', '8x gtceu:fine_gold_wire', 'gtceu:coal_dust', 'gtceu:lead_plate', '2x gtceu:cpu_chip', '4x gtceu:ram_chip')
+        .itemOutputs('kubejs:wither_skeleton_cognitive_matrix')
+        .EUt(128)
+        .duration(5*20)
+    // Zombie
     event.recipes.gtceu.circuit_assembler('kubejs:zombie_cognitive_matrix')
-        .itemInputs(
-            '#gtceu:circuits/lv',
-            'minecraft:iron_sword',
-            'gtceu:steel_plate',
-            'minecraft:rotten_flesh'
-        )
-        .itemOutputs(
-            'kubejs:zombie_cognitive_matrix'
-        )
+        .itemInputs('#gtceu:circuits/lv','8x gtceu:fine_copper_wire', 'gtceu:iron_plate')
+        .itemOutputs('kubejs:zombie_cognitive_matrix')
+        .EUt(128)
+        .duration(5*20)
 
     const recipes = [
 
