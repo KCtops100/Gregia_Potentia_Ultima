@@ -201,14 +201,17 @@ ServerEvents.recipes(event => {
         /**
          * Enderman
          */
+        ['ender_pearls_form_enderman', 'kubejs:enderman_cognitive_matrix', ['kubejs:terra_matter', '6x minecraft:ender_pearl'], 50, 128, 0],
 
         /**
          * Evoker
          */
+        ['emerald_from_evoker', 'kubejs:evoker_cognitive_matrix', ['kubejs:terra_matter', '6x minecraft:emerald'], 50, 128, 0],
 
        /**
          * Ghast
          */
+        ['ghast_tear_from_ghast', 'kubejs:ghast_cognitive_matrix', ['kubejsinferno_matter', '6x minecraft:ghast_tear'], 50, 128, 0],
 
        /**
          * Guardian
@@ -217,6 +220,7 @@ ServerEvents.recipes(event => {
        /**
          * Iron Golem
          */
+        
 
         /**
          * Magma Cube
@@ -235,6 +239,8 @@ ServerEvents.recipes(event => {
         /**
          * Piglin
          */
+        ['gold_from_piglin', 'kubejs:piglin_cognitive_matrix', ['kubejs:inferno_matter', '8x minecraft:gold_ingot'], 50, 512, 0],
+
 
         /**
          * Rabbit
