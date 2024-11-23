@@ -465,12 +465,25 @@ event.recipes.gtceu.circuit_assembler('kubejs:wither_skelekton_cognitive_matrix'
             F: 'gtceu:luv_emitter'
         }
     )
-    event.shaped('gtceu:uv_neural_network_fabricator', [
+    event.shaped('gtceu:zpm_neural_network_fabricator', [
         'ABA', 
         'CDC',
         'EFE'  
         ], {
             A: 'gtceu:darmstadtium_plate', 
+            B: 'gtceu:zpm_field_generator',
+            C: '#gtceu:circuits/zpm',
+            D: 'gtceu:zpm_machine_hull',
+            E: 'gtceu:vanadium_gallium_quadruple_wire',
+            F: 'gtceu:zpm_emitter'
+        }
+    )
+    event.shaped('gtceu:uv_neural_network_fabricator', [
+        'ABA', 
+        'CDC',
+        'EFE'  
+        ], {
+            A: 'gtceu:naquadah_alloy_plate', 
             B: 'gtceu:uv_field_generator',
             C: '#gtceu:circuits/uv',
             D: 'gtceu:uv_machine_hull',
