@@ -1,1 +1,1 @@
-global.mode = 'normal'
+global.mode = 'hard' 
